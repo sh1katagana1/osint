@@ -1,6 +1,6 @@
 # Search Engines
 **Description** \
-A list of resources for general searching. This does not include Dark Web engines as that is covered in my Dark Web section \
+A list of resources for general searching. This does not include Dark Web engines as that is covered in my Dark Web section 
 
 [Google](Https://www.google.com) The obvious juggernaut \
 [DuckDuckGo](Https://www.duckduckgo.com)  A more privacy minded search \
