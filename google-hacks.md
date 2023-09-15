@@ -56,7 +56,7 @@ site:chucknorris.com inurl:wp- | inurl:wp-content | inurl:plugins | inurl:upload
 ## (Not a Google Hack, but similar) Wordpress Deep Search
 http://wwwb-dedup.us.archive.org:8083/cdx/search?url=chucknorris.com/&matchType=domain&collapse=digest&output=text&fl=original,timestamp&filter=urlkey:.*wp[-].*&limit=1000000&xx=
 
-##Vulnerable Search String (parameters generally seen being used for parameter pollution as well as a number of other web vulnerabilities)
+## Vulnerable Search String (parameters generally seen being used for parameter pollution as well as a number of other web vulnerabilities)
 ```
 site:chucknorris.com inurl:php?=id1 | inurl:index.php?id= | inurl:pageid= | inurl:.php?
 ```
