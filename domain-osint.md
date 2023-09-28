@@ -168,6 +168,7 @@ python3 DNSrazzle.py -d [Domain Name]
 [Live IP Map](https://www.liveipmap.com/) \
 [URLQuery](https://urlquery.net/) \
 [URLHaus](https://urlhaus.abuse.ch/) \
-[WebCheck](https://web-check.as93.net/)
+[WebCheck](https://web-check.as93.net/) \
+[Is It Phishing](https://isitphishing.org/)
 
 
