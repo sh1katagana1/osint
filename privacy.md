@@ -5,6 +5,7 @@
 2. Most time you do OSINT, you want to be using a VPN. It would be wise to find one where you can use cash, a privacy focused card, or even a gift card. An example of one that accepts gift cards for payment is Private Internet Access \
 https://www.privateinternetaccess.com/pages/gift-card-payment \
 3. Be aware that even if you choose to use a VPN at home, and even if you have a killswitch for the VPN, the computer will likely still do an initial beacon to your router on boot up. \
+General Sites: \
 [Am I Unique](https://amiunique.org/) \
 [Browser Leaks](https://browserleaks.com/) \
 [Just Get My Data](https://justgetmydata.com/) \
