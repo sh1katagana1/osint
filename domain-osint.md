@@ -103,15 +103,6 @@ fierce --domain wingnut.com
 python3 theharvester.py -d example.com -l 500 -b google -f myresults.xml
 ```
 
-## DNS Dumpster
-**Description** A free domain search tool. They even let you download an XLSX output of it
- 
-https://dnsdumpster.com/
-
-## HackerTarget
-I generally use this inside of theHarvester tool, but you can also directly query their API. For example:
- https://api.hackertarget.com/reversedns/?q=trinet.com
-
  ## Censys Subdomain Finder
  **Description**
  This is a tool to enumerate subdomains using the Certificate Transparency logs stored by Censys. It should return any subdomain who has ever been issued a SSL certificate by a public CA.
@@ -145,7 +136,7 @@ dnstwist --registered domain.name
 ## DNSRazzle
 https://github.com/f8al/DNSrazzle \
 **Description** \
-A pure python tool for finding and comparing typo-squatting, bytesqatting, and homoglyph domains for detecting brand impersonation \
+A pure python tool for finding and comparing typo-squatting, bytesquatting, and homoglyph domains for detecting brand impersonation \
 **Install**
 ```
 git clone https://github.com/f8al/DNSrazzle.git
@@ -156,4 +147,27 @@ pip3 install -r requirements.txt
 ```
 python3 DNSrazzle.py -d [Domain Name]
 ```
+
+## General Sites
+[Dnsdumpster](https://dnsdumpster.com/) \
+[Robtex](https://www.robtex.com/) \
+[Hackertarget](https://hackertarget.com/reverse-dns-lookup) \
+[Whois](https://who.is/) \
+[AnalyzeID](https://analyzeid.com/) \
+[Domain Check](https://centralops.net/asp/co/DomainCheck.vbs.asp) \
+[Greynoise](https://viz.greynoise.io/) \
+[ShortLinks](https://seintpl.github.io/osint/short-links-verification-cheatsheet) \
+[UrlScan](https://urlscan.io/) \
+[ViewDNSInfo](https://viewdns.info/) \
+[What is my IP](https://whatismyipaddress.com/) \
+[Whoxy](https://www.whoxy.com/) \
+[I know what you download](https://iknowwhatyoudownload.com/en/peer/) \
+[InfoByIP](https://www.infobyip.com/) \
+[IP Fingerprints](https://www.ipfingerprints.com/) \
+[IP Void](https://www.ipvoid.com/) \
+[Live IP Map](https://www.liveipmap.com/) \
+[URLQuery](https://urlquery.net/) \
+[URLHaus](https://urlhaus.abuse.ch/) \
+[WebCheck](https://web-check.as93.net/)
+
 
