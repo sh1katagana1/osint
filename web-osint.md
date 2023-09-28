@@ -150,6 +150,7 @@ optional arguments:
   -t , --threads       Number of threads (default 30)
   -h, --help           Show this help message and exit
  ```
- 
- 
+
+ [Link Extractor](https://coveryourtracks.eff.org/) \
+ [BuiltWith](https://builtwith.com/)
 
