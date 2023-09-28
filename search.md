@@ -18,5 +18,11 @@ A list of resources for general searching. This does not include Dark Web engine
 [BlogSearch](http://www.blogsearchengine.org/) A blog search engine \
 [Search Engine Colossus](https://www.searchenginecolossus.com/) A massive database of all different search engines \
 [Google Dork Cheatsheet 2023](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/?amp=1) Google Dork cheat sheet
+[Shodan](https://shodan.io) \
+[Onyphe](https://onyphe.io) \
+[Censys](https://search.censys.io/) \
+[Urlscan](https://urlscan.io) \
+[Netlas](https://app.netlas.io/host) \
+[PulseDive](https://pulsedive.com)
 
 
