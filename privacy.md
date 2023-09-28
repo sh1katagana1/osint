@@ -9,4 +9,5 @@ General Sites: \
 [Am I Unique](https://amiunique.org/) \
 [Browser Leaks](https://browserleaks.com/) \
 [Just Get My Data](https://justgetmydata.com/) \
-[Firefox Debloat](https://github.com/amq/firefox-debloat) 
+[Firefox Debloat](https://github.com/amq/firefox-debloat) \
+[Cover your tracks](https://coveryourtracks.eff.org/)
