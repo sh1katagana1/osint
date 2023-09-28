@@ -19,4 +19,31 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   ```
+
+## Holehe
+**Description** Holehe checks if an email is attached to an account on sites like twitter, instagram, imgur and more than 120 others. \
+https://github.com/megadose/holehe \
+Install
+```
+pip3 install holehe
+```
+Usage
+```
+holehe test@gmail.com
+```
+
   
+## General Links
+[Emailrep](https://emailrep.io/) Email reputation search \
+[Epieos](https://epieos.com) Retrieve information linked to an email address \
+[GuerillaMail](https://www.guerrillamail.com) Anonymous email \
+[Hunter](https://hunter.io) Email Investigation \
+[Email Dossier](https://centralops.net/co/emaildossier.aspx) Email Investigation \
+[Email Hippo](https://tools.emailhippo.com/) Email Verification \
+[Email Checker](https://email-checker.net/) \
+[Email Formats](https://www.email-format.com/) Find the email address formats in use at thousands of companies \
+[Email Header Analysis](https://www.iptrackeronline.com/email-header-analysis.php) \
+[Emkei](https://emkei.cz) Online Fake Emailer \
+[Eyepaste](https://www.eyepaste.com) Disposable Email \
+[Peepmail](https://samy.pl/peepmail) a tool that allows you to discover business email addresses for users, even if their email address may not be publicly available or shared \
+[Gaijin](https://www.gaijin.at/en/tools/e-mail-header-analyzer) Email Header Analysis \
