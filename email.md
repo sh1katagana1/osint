@@ -47,3 +47,7 @@ holehe test@gmail.com
 [Eyepaste](https://www.eyepaste.com) Disposable Email \
 [Peepmail](https://samy.pl/peepmail) a tool that allows you to discover business email addresses for users, even if their email address may not be publicly available or shared \
 [Gaijin](https://www.gaijin.at/en/tools/e-mail-header-analyzer) Email Header Analysis \
+[MXToolbox](https://mxtoolbox.com/blacklists.aspx) Email Blacklist Check \
+[Thats Them](https://thatsthem.com/reverse-email-lookup) Reverse Lookup \
+[List of Disposable Email Addresses](https://github.com/disposable-email-domains/disposable-email-domains/blob/master/disposable_email_blocklist.conf) \
+[MailHeader](https://mailheader.org/) Analyze Email headers
