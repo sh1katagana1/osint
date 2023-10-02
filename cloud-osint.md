@@ -129,3 +129,6 @@ If a cloud provider not detected or want force searching on a specific provider,
 CloudBrute -d target.com -k keyword -m storage -t 80 -T 10 -w -c amazon -o target_output.txt
 ```
 
+## Kaeferjaeger
+The hacker collective kaeferjaeger scans all the major cloud providers every week. They pull down every IPs SSL certificate data. They offer it for download. We can search this cert data for our target. Visit http://kaeferjaeger.gay/?dir=sni-ip-ranges and download the data and search for the name you want.
+
