@@ -132,3 +132,54 @@ CloudBrute -d target.com -k keyword -m storage -t 80 -T 10 -w -c amazon -o targe
 ## Kaeferjaeger
 The hacker collective kaeferjaeger scans all the major cloud providers every week. They pull down every IPs SSL certificate data. They offer it for download. We can search this cert data for our target. Visit http://kaeferjaeger.gay/?dir=sni-ip-ranges and download the data and search for the name you want.
 
+## CloudRecon
+https://github.com/g0ldencybersec/CloudRecon
+A tool from jhaddix to scan SSL certs to enumerate cloud assets for a given range
+Install
+```
+sudo apt install gcc
+```
+```
+go install github.com/g0ldencybersec/CloudRecon@latest
+```
+For me in Kali, this put it in a folder called "go" in my home directory. You then run ./CloudRecon -h for help file
+```
+Usage: CloudRecon scrape|store|retr [options]
+
+  -h    Show the program usage message
+
+Subcommands: 
+
+        cloudrecon scrape - Scrape given IPs and output CNs & SANs to stdout
+        cloudrecon store - Scrape and collect Orgs,CNs,SANs in local db file
+        cloudrecon retr - Query local DB file for results
+```
+```
+scrape [options] -i <IPs/CIDRs or File>
+  -a    Add this flag if you want to see all output including failures
+  -c int
+        How many goroutines running concurrently (default 100)
+  -h    print usage!
+  -i string
+        Either IPs & CIDRs separated by commas, or a file with IPs/CIDRs on each line (default "NONE"                                                                                                                         )
+  -p string
+        TLS ports to check for certificates (default "443")
+  -t int
+        Timeout for TLS handshake (default 4)
+```
+```
+store [options] -i <IPs/CIDRs or File>
+  -c int
+        How many goroutines running concurrently (default 100)
+  -db string
+        String of the DB you want to connect to and save certs! (default "certificates.db")
+  -h    print usage!
+  -i string
+        Either IPs & CIDRs separated by commas, or a file with IPs/CIDRs on each line (default "NONE")
+  -p string
+        TLS ports to check for certificates (default "443")
+  -t int
+        Timeout for TLS handshake (default 4)
+```
+So after I got the CIDR of the company from an ASN search, I did ./CloudBrute -i <cider> to run the scraper.
+
