@@ -133,8 +133,8 @@ CloudBrute -d target.com -k keyword -m storage -t 80 -T 10 -w -c amazon -o targe
 The hacker collective kaeferjaeger scans all the major cloud providers every week. They pull down every IPs SSL certificate data. They offer it for download. We can search this cert data for our target. Visit http://kaeferjaeger.gay/?dir=sni-ip-ranges and download the data and search for the name you want.
 
 ## CloudRecon
-https://github.com/g0ldencybersec/CloudRecon
-A tool from jhaddix to scan SSL certs to enumerate cloud assets for a given range
+https://github.com/g0ldencybersec/CloudRecon \
+A tool from jhaddix to scan SSL certs to enumerate cloud assets for a given range \
 Install
 ```
 sudo apt install gcc
