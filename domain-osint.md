@@ -169,6 +169,7 @@ python3 DNSrazzle.py -d [Domain Name]
 [URLQuery](https://urlquery.net/) \
 [URLHaus](https://urlhaus.abuse.ch/) \
 [WebCheck](https://web-check.as93.net/) \
-[Is It Phishing](https://isitphishing.org/)
+[Is It Phishing](https://isitphishing.org/) \
+[ASN search](https://bgp.he.net/) Its wise to do ASN searches of a domain, to try and see any other domains they may be affiliated with. 
 
 
