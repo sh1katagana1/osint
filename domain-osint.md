@@ -148,6 +148,9 @@ pip3 install -r requirements.txt
 python3 DNSrazzle.py -d [Domain Name]
 ```
 
+## BGP ASN Search
+Its a good idea to search ASNs of the target company to see if they are in any other IP ranges. Go to https://bgp.he.net/ and type in the name of a company name (not the .com added to it) and search. It will give you a list of ASNs and Routes for anything matching that name. Looking under ASN, you may find additonal domains under the Prefix IPV4 tab
+
 ## General Sites
 [Dnsdumpster](https://dnsdumpster.com/) \
 [Robtex](https://www.robtex.com/) \
@@ -169,7 +172,6 @@ python3 DNSrazzle.py -d [Domain Name]
 [URLQuery](https://urlquery.net/) \
 [URLHaus](https://urlhaus.abuse.ch/) \
 [WebCheck](https://web-check.as93.net/) \
-[Is It Phishing](https://isitphishing.org/) \
-[ASN search](https://bgp.he.net/) Its wise to do ASN searches of a domain, to try and see any other domains they may be affiliated with. 
+[Is It Phishing](https://isitphishing.org/) 
 
 
