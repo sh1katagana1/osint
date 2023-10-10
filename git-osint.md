@@ -40,3 +40,15 @@ Search a GitHub Enterprise instance
 ```
 GH_URL=https://github.example.com github-dork.py -u dev-nepal
 ```
+## Github Dorks Script by Jhaddix
+https://gist.githubusercontent.com/jhaddix/1fb7ab2409ab579178d2a79959909b33/raw/e9fea4c0f6982546d90d241bc3e19627a7083e5e/Gdorklinks.sh \
+Great script from jhaddix with a lot of great Github dorks. \
+Download the script and run 
+```
+chmod +x Gdorklinks.sh
+```
+Usage
+```
+./Gdorklinks.sh  NameOfSomeCompanyMaybe
+```
+
