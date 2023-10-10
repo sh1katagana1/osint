@@ -219,7 +219,37 @@ subfinder -d leroyjenkins.com
 ```
 ## BBOT
 https://github.com/blacklanternsecurity/bbot \
-BBOT (Bighuge BLS OSINT Tool) is a modular, recursive OSINT framework that can execute the entire OSINT workflow in a single command. BBOT is inspired by Spiderfoot but takes it to the next level with features like multi-target scans, lightning-fast asyncio performance, and NLP-powered subdomain mutations. It offers a wide range of functionality, including subdomain enumeration, port scanning, web screenshots, vulnerability scanning, and much more.
+BBOT (Bighuge BLS OSINT Tool) is a modular, recursive OSINT framework that can execute the entire OSINT workflow in a single command. BBOT is inspired by Spiderfoot but takes it to the next level with features like multi-target scans, lightning-fast asyncio performance, and NLP-powered subdomain mutations. It offers a wide range of functionality, including subdomain enumeration, port scanning, web screenshots, vulnerability scanning, and much more. \
+Installation
+```
+pipx install bbot
+```
+Perform a full subdomain enumeration on evilcorp.com
+```
+bbot -t evilcorp.com -f subdomain-enum
+```
+Perform a passive-only subdomain enumeration on evilcorp.com
+```
+bbot -t evilcorp.com -f subdomain-enum -rf passive
+```
+A basic web scan includes wappalyzer, robots.txt, and other non-intrusive web modules
+```
+bbot -t evilcorp.com -f subdomain-enum web-basic
+```
+Port-scan every subdomain, screenshot every webpage, output to current directory
+```
+bbot -t evilcorp.com -f subdomain-enum -m nmap gowitness -n my_scan -o .
+```
+Crawl www.evilcorp.com up to a max depth of 2, automatically extracting emails, secrets, etc.
+```
+bbot -t www.evilcorp.com -m httpx robots badsecrets secretsdb -c web_spider_distance=2 web_spider_depth=2
+```
+Subdomains, emails, cloud buckets, port scan, basic web, web screenshots, nuclei
+```
+bbot -t evilcorp.com -f subdomain-enum email-enum cloud-enum web-basic -m nmap gowitness nuclei --allow-deadly
+```
+
+
 
 
 ## BGP ASN Search
