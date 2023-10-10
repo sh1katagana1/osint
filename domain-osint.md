@@ -147,6 +147,77 @@ pip3 install -r requirements.txt
 ```
 python3 DNSrazzle.py -d [Domain Name]
 ```
+## Subfinder
+https://github.com/projectdiscovery/subfinder
+Subfinder is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
+```
+Usage:
+  ./subfinder [flags]
+
+Flags:
+INPUT:
+  -d, -domain string[]  domains to find subdomains for
+  -dL, -list string     file containing list of domains for subdomain discovery
+
+SOURCE:
+  -s, -sources string[]           specific sources to use for discovery (-s crtsh,github). Use -ls to display all available sources.
+  -recursive                      use only sources that can handle subdomains recursively (e.g. subdomain.domain.tld vs domain.tld)
+  -all                            use all sources for enumeration (slow)
+  -es, -exclude-sources string[]  sources to exclude from enumeration (-es alienvault,zoomeyeapi)
+
+FILTER:
+  -m, -match string[]   subdomain or list of subdomain to match (file or comma separated)
+  -f, -filter string[]   subdomain or list of subdomain to filter (file or comma separated)
+
+RATE-LIMIT:
+  -rl, -rate-limit int  maximum number of http requests to send per second
+  -rls value            maximum number of http requests to send per second four providers in key=value format (-rls "hackertarget=10/s,shodan=15/s")
+  -t int                number of concurrent goroutines for resolving (-active only) (default 10)
+
+UPDATE:
+   -up, -update                 update subfinder to latest version
+   -duc, -disable-update-check  disable automatic subfinder update check
+
+OUTPUT:
+  -o, -output string       file to write output to
+  -oJ, -json               write output in JSONL(ines) format
+  -oD, -output-dir string  directory to write output (-dL only)
+  -cs, -collect-sources    include all sources in the output (-json only)
+  -oI, -ip                 include host IP in output (-active only)
+
+CONFIGURATION:
+  -config string                flag config file (default "$HOME/.config/subfinder/config.yaml")
+  -pc, -provider-config string  provider config file (default "$HOME/.config/subfinder/provider-config.yaml")
+  -r string[]                   comma separated list of resolvers to use
+  -rL, -rlist string            file containing list of resolvers to use
+  -nW, -active                  display active subdomains only
+  -proxy string                 http proxy to use with subfinder
+  -ei, -exclude-ip              exclude IPs from the list of domains
+
+DEBUG:
+  -silent             show only subdomains in output
+  -version            show version of subfinder
+  -v                  show verbose output
+  -nc, -no-color      disable color in output
+  -ls, -list-sources  list all available sources
+
+OPTIMIZATION:
+  -timeout int   seconds to wait before timing out (default 30)
+  -max-time int  minutes to wait for enumeration results (default 10)
+```
+Install
+```
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+```
+Its best to install API keys with it. You can get to the config file here:
+```
+$HOME/.config/subfinder/provider-config.yaml
+```
+Usage
+```
+subfinder -d leroyjenkins.com
+```
+
 
 ## BGP ASN Search
 Its a good idea to search ASNs of the target company to see if they are in any other IP ranges. Go to https://bgp.he.net/ and type in the name of a company name (not the .com added to it) and search. It will give you a list of ASNs and Routes for anything matching that name. Looking under ASN, you may find additonal domains under the Prefix IPV4 tab
