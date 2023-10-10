@@ -248,6 +248,11 @@ Subdomains, emails, cloud buckets, port scan, basic web, web screenshots, nuclei
 ```
 bbot -t evilcorp.com -f subdomain-enum email-enum cloud-enum web-basic -m nmap gowitness nuclei --allow-deadly
 ```
+You can clean up the output to just found subdomains per line like so:
+```
+cat /root/.bbot/scans/{scan_name}/output.txt | grep -F '[DNS_NAME]’ | awk '{print $2}'
+```
+
 
 
 
