@@ -150,7 +150,35 @@ optional arguments:
   -t , --threads       Number of threads (default 30)
   -h, --help           Show this help message and exit
  ```
+## Katana
+A next-generation crawling and spidering framework. To install grab the binary here: https://github.com/projectdiscovery/katana/releases \
+Usage
+```
+./katana -u <url>
+```
+Multiple URLs
+```
+./katana -u https://tesla.com,https://google.com
+```
+Runs headless chrome browser with no-sandbox option, useful when running as root user.
+```
+./katana -u https://tesla.com -headless -no-sandbox
+```
+Option to define the depth to follow the urls for crawling, the more depth the more number of endpoint being crawled + time for crawl.
+```
+./katana -u https://tesla.com -d 5
+```
+Option to enable JavaScript file parsing + crawling the endpoints discovered in JavaScript files, disabled as default.
+```
+./katana -u https://tesla.com -jc
+```
+Here is an example of adding a cookie to the request:
+```
+./katana -u https://tesla.com -H 'Cookie: usrsess=AmljNrESo'
+```
 
+
+## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
  [BuiltWith](https://builtwith.com/)
 
