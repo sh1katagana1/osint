@@ -34,6 +34,7 @@ bash cloudunflare.bash
 
 
 ## DnsRecon
+https://github.com/darkoperator/dnsrecon
 
 **Description:** Basic DNS recon also using brute force
 ```
