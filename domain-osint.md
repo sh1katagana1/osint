@@ -287,6 +287,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [WebCheck](https://web-check.as93.net/) \
 [Is It Phishing](https://isitphishing.org/) \
 [Chaos](https://chaos.projectdiscovery.io/#/) \
-[Driftnet](https://driftnet.io/) A good attack surface analyzer
+[Driftnet](https://driftnet.io/) A good attack surface analyzer \
+[Have I Been Squatted](https://www.haveibeensquatted.com/lookup) Domain squatting lookup
 
 
