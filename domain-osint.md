@@ -14,6 +14,7 @@ python3 cloudflair.py leroy.com --censys-api-id <API key> --censys-api-secret <S
 -o output file
 
 ## Cloudmare
+https://github.com/mrh0wl/Cloudmare
 
 **Description:**
 Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri or Incapsula with a misconfiguration DNS.
