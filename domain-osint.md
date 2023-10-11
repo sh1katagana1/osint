@@ -282,6 +282,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [URLHaus](https://urlhaus.abuse.ch/) \
 [WebCheck](https://web-check.as93.net/) \
 [Is It Phishing](https://isitphishing.org/) \
-[Chaos](https://chaos.projectdiscovery.io/#/)
+[Chaos](https://chaos.projectdiscovery.io/#/) \
+[Driftnet](https://driftnet.io/) A good attack surface analyzer
 
 
