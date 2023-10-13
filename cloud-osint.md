@@ -184,7 +184,7 @@ store [options] -i <IPs/CIDRs or File>
 So after I got the CIDR of the company from an ASN search, I did ./CloudBrute -i <cider> to run the scraper.
 
 ## Lazys3
-https://github.com/nahamsec/lazys3
+https://github.com/nahamsec/lazys3 \
 **Description:** A Ruby script to bruteforce for AWS s3 buckets using different permutations. \
 Usage
 ```
