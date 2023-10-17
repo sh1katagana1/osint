@@ -1,6 +1,10 @@
 # Google Hacks
 **Description** \
 These are common Google Hacks I use for OSINT. Just replace the chucknorris.com value with whatever site your searching for
+## General All Around Extension Search
+```
+site:"example.com" ext:log | ext:conf | ext:txt | ext:cnf | ext:ini | ext:env | ext.sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess
+```
 ## Open Redirects
 ```
 site:chucknorris.com inurl:redir | inurl:url | inurl:redirect | inurl:return | inurl:src=http | inurl:r=http
