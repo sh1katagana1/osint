@@ -3,6 +3,11 @@
 A list of resources for general searching. This does not include Dark Web engines as that is covered in my Dark Web section 
 
 [Google](Https://www.google.com) The obvious juggernaut \
+If you click Tool at the Google Search page you will see some additional things you can use. One is searching based on a time range, like only from past 4 months. The other one is how you want your results, do you want Google to make an educated guess or do you want them to return results verbatim to what you ask it. \
+[Bing](https://www.bing.com/) This one has the second largest dataset outside of Google. \
+One issue is they got rid of their Advanced Search page where you can make use of their "dorks" in a GUI format. You can still do the normal Bing Dorks directly, but not in GUI format like Google has. \
+[Yahoo](https://www.yahoo.com/) This one utilizes Bing's dataset \
+The interesting piece of this one is that it does have a GUI Advanced Search and as it utiizes the Bing dataset, its almost a defacto Bing GUI Advanced Search. \
 [DuckDuckGo](Https://www.duckduckgo.com)  A more privacy minded search \
 [Searx](https://searx.space/) Grab a hosted instance at this site, but you can also host your own for the ultimate privacy centered search \
 [StartPage](https://www.startpage.com/) \
