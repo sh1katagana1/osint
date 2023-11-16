@@ -1,6 +1,6 @@
 # Search Engines
 **Description** \
-A list of resources for general searching. This does not include Dark Web engines as that is covered in my Dark Web section. Something to keep in mind is some search engines may curate the results differently depending on where the search query is coming from. If you want to do OSINT on a subject in a specific state, connect to a VPN there and you may get more curated results. \
+A list of resources for general searching. This does not include Dark Web engines as that is covered in my Dark Web section. Something to keep in mind is some search engines may curate the results differently depending on where the search query is coming from. If you want to do OSINT on a subject in a specific state, connect to a VPN there and you may get more curated results. 
 
 [Google](Https://www.google.com) The obvious juggernaut \
 If you click Tool at the Google Search page you will see some additional things you can use. One is searching based on a time range, like only from past 4 months. The other one is how you want your results, do you want Google to make an educated guess or do you want them to return results verbatim to what you ask it. \
