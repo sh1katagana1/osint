@@ -266,6 +266,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 
 ## General Sites
 [Dnsdumpster](https://dnsdumpster.com/) \
+[Crunchbase](https://www.crunchbase.com/) \
 [Robtex](https://www.robtex.com/) \
 [Hackertarget](https://hackertarget.com/reverse-dns-lookup) \
 [Whois](https://who.is/) \
