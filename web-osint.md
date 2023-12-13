@@ -177,6 +177,18 @@ Here is an example of adding a cookie to the request:
 ./katana -u https://tesla.com -H 'Cookie: usrsess=AmljNrESo'
 ```
 
+## Headerpwn
+https://github.com/devanshbatham/headerpwn \
+A fuzzer for analyzing how servers respond to different HTTP headers. You put in a URL and choose a list of headers you want to test. The github site has a headers.txt file which is fairly decent. \
+Install (dont forget as it is golang, after running this command the executable will be in the "go" folder):
+```
+go install github.com/devanshbatham/headerpwn@v0.0.3
+```
+Usage. This will fuzz the headers found in headers.txt against leroyjenkins.com:
+```
+ ./headerpwn -url https://leroyjenkins.com -headers headers.txt
+```
+
 
 ## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
