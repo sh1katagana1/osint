@@ -188,6 +188,10 @@ Usage. This will fuzz the headers found in headers.txt against leroyjenkins.com:
 ```
  ./headerpwn -url https://leroyjenkins.com -headers headers.txt
 ```
+I can also proxy it through Burp so I can review the output:
+```
+./headerpwn -url https://example.com -headers my_headers.txt -proxy 127.0.0.1:8080
+```
 
 
 ## General Links
