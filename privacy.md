@@ -10,4 +10,5 @@ General Sites: \
 [Browser Leaks](https://browserleaks.com/) \
 [Just Get My Data](https://justgetmydata.com/) \
 [Firefox Debloat](https://github.com/amq/firefox-debloat) \
-[Cover your tracks](https://coveryourtracks.eff.org/)
+[Cover your tracks](https://coveryourtracks.eff.org/) \
+[Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
