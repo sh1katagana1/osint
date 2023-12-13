@@ -196,5 +196,6 @@ I can also proxy it through Burp so I can review the output:
 
 ## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
- [BuiltWith](https://builtwith.com/)
+ [BuiltWith](https://builtwith.com/) \
+ [Project Discovery List of Public Bug Bounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs)
 
