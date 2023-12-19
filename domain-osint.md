@@ -177,10 +177,6 @@ This option used fuzzy hashes to compare two inputs (HTML code) and determine a 
 ```
 dnstwist -r --lsh ssdeep domain
 ```
-The same fuzzy hashes technique but on a specific url. In some cases, phishing sites are served from a specific URL. If you provide a full or partial URL address as an argument, this tool will parse it and apply for each generated domain name variant. Use — ssdeep-url to override URL to fetch the original web page from.
-```
-dnstwist — ssdeep domain — ssdeep-url 'url belongs to domain'
-```
 This option display all the registered domains with different tld such as .edu, .eu, .org, .fr etc.
 ```
 dnstwist -r — tld dictionaries/common_tld.dict domain
