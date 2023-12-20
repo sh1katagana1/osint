@@ -193,6 +193,13 @@ I can also proxy it through Burp so I can review the output:
 ./headerpwn -url https://example.com -headers my_headers.txt -proxy 127.0.0.1:8080
 ```
 
+## FFUF
+https://github.com/ffuf/ffuf \
+This is the best directory enumeration tool I have found, or at least the fastest. Its way faster than dirbuster and gobuster. \
+Directory enumeration. -c is to colorize the output, -w for wordlist, u for URL and -r true to follow redirects
+```
+ffuf -c -w /path/to/wordlist -u https://target/FUZZ -r true
+```
 
 ## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
