@@ -204,5 +204,6 @@ ffuf -c -w /path/to/wordlist -u https://target/FUZZ -r true
 ## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
  [BuiltWith](https://builtwith.com/) \
- [Project Discovery List of Public Bug Bounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs)
+ [Project Discovery List of Public Bug Bounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs) \
+ [Osint.sh Tech Stack](https://osint.sh/stack/) View the technology stack of any website
 
