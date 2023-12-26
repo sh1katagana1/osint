@@ -360,6 +360,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Driftnet](https://driftnet.io/) A good attack surface analyzer \
 [Have I Been Squatted](https://www.haveibeensquatted.com/lookup) Domain squatting lookup \
 [DNSTwister](https://dnstwister.report/) Good site for checking domain infringement \
-[Osint.sh Subdomain Finder](https://osint.sh/subdomain/) Finds subdomains
+[Osint.sh Subdomain Finder](https://osint.sh/subdomain/) Finds subdomains \
+[Osint.sh Reverse IP lookup](https://osint.sh/reverseip/) Pop in an ip address and get a result of A records associated
 
 
