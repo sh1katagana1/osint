@@ -50,4 +50,5 @@ holehe test@gmail.com
 [MXToolbox](https://mxtoolbox.com/blacklists.aspx) Email Blacklist Check \
 [Thats Them](https://thatsthem.com/reverse-email-lookup) Reverse Lookup \
 [List of Disposable Email Addresses](https://github.com/disposable-email-domains/disposable-email-domains/blob/master/disposable_email_blocklist.conf) \
-[MailHeader](https://mailheader.org/) Analyze Email headers
+[MailHeader](https://mailheader.org/) Analyze Email headers \
+[Osint.sh Reverse Whois](https://osint.sh/reversewhois/) Allow you to find domain names owned by an email address
