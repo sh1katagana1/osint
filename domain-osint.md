@@ -363,6 +363,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Osint.sh Subdomain Finder](https://osint.sh/subdomain/) Finds subdomains \
 [Osint.sh Reverse IP lookup](https://osint.sh/reverseip/) Pop in an ip address and get a result of A records associated \
 [Osint.sh DNS Lookup](https://osint.sh/dns/) Provides a report on DNS records for a specified domain or hostname \
-[Osint.sh Whois History](https://osint.sh/whoishistory/) Lets you see all the historical WHOIS records of a domain name 
+[Osint.sh Whois History](https://osint.sh/whoishistory/) Lets you see all the historical WHOIS records of a domain name \
+[Osint.sh GeoIP lookup](https://osint.sh/ip/) Find a geolocation of an IP address or a domain including city, region and country.
+
 
 
