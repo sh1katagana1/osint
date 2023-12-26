@@ -18,4 +18,5 @@
 [Telegram Scan](https://tgscan.xyz/) \
 [Database Search](https://search.0t.rocks/) This is a really interesting one that searches quite a few datapoints \
 [Osint.sh](https://osint.sh/) A good variety of different online osint tools \
-[Osint.sh Reverse Google Analytics](https://osint.sh/analytics/) Find domains with the same Google Analytics ID
+[Osint.sh Reverse Google Analytics](https://osint.sh/analytics/) Find domains with the same Google Analytics ID \
+[Reverse Google Adsense](https://osint.sh/adsense/) Find domains with the same Google Adsense ID
