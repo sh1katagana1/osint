@@ -12,6 +12,5 @@ python3 metagoofil.py -d wingnut.com -t ALL
 ## General Links
 [Doxbin](https://doxbin.org/) Document search \
 [PDF Search](http://findpdfdoc.com/) \
-[Binsearch](https://www.binsearch.info/) \
 [Napalm FTP](https://www.searchftps.net/) \
 [Mamont FTP](https://www.mmnt.ru/int/) 
