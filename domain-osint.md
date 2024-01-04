@@ -206,6 +206,69 @@ This option save the output in a file.
 dnstwist domain -o 'file name with path'
 ```
 
+## Opensquat
+https://github.com/atenreiro/opensquat \
+**Decsription** \
+openSquat is an opensource Intelligence (OSINT) security tool to identify cyber squatting threats to specific companies or domains \
+Install
+```
+git clone https://github.com/atenreiro/opensquat
+```
+```
+pip install -r requirements.txt
+```
+Lazy run with default options
+```
+python opensquat.py
+```
+Search for generic terms used in phishing campaigns (can lead to false-positives) The Opensquat folder has this generic.txt as well as a keywords.txt. These can be modified with keywords you want to look for
+```
+python opensquat.py -k generic.txt
+```
+With DNS validation (quad9)
+```
+python opensquat.py --dns
+```
+Subdomain search
+```
+python opensquat.py --subdomains
+```
+Check for domains with open ports 80/443
+```
+python opensquat.py --portcheck
+```
+With Phishing validation (Phishing Database)
+```
+python opensquat.py --phishing phish_results.txt
+```
+Save output as JSON
+```
+python opensquat.py -o example.json -t json
+```
+Save output as CSV
+```
+python opensquat.py -o example.csv -t csv
+```
+Conduct a certificate transparency (ct) hunt
+```
+python opensquat.py --ct
+```
+Period search - registrations from the last month (default: day)
+```
+python opensquat.py -p month
+```
+Tweak confidence level. The lower values bring more false positives (0: very high, 1: high (default), 2: medium, 3: low, 4: very low
+```
+python opensquat.py -c 2
+```
+All validations options
+```
+python opensquat.py --phishing phishing_domains.txt --dns --ct --subdomains --portcheck
+```
+
+
+
+
 ## DNSRazzle
 https://github.com/f8al/DNSrazzle \
 **Description** \
