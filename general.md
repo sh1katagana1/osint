@@ -20,4 +20,5 @@
 [Osint.sh](https://osint.sh/) A good variety of different online osint tools \
 [Osint.sh Reverse Google Analytics](https://osint.sh/analytics/) Find domains with the same Google Analytics ID \
 [Reverse Google Adsense](https://osint.sh/adsense/) Find domains with the same Google Adsense Id \
-[Criminal IP](https://www.criminalip.io) This is a good general intel search site. You can search keywords, and it displays things like technologies used, favicons, etc.
+[Criminal IP](https://www.criminalip.io) This is a good general intel search site. You can search keywords, and it displays things like tech used, favicons, etc. \
+[Hunter How](https://hunter.how) Goog all around threat search engine. Make sure to reference the search guide to understand the syntax needed.
