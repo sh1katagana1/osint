@@ -434,7 +434,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Dnslytics](https://dnslytics.com/reverse-ip)  Reverse IP lookup. \
 [DNS Security](https://check.merox.io/) This checks a domains dmarc and spf settings. \
 [Where Goes](https://wheregoes.com/) Put a domain in and it will analyze all the redirects of where it goes. \
-[Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain.
+[Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain. \
+[BGP Info](https://bgp.tools) Get info on BGP things.
 
 
 
