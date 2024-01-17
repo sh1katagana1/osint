@@ -52,4 +52,5 @@ holehe test@gmail.com
 [List of Disposable Email Addresses](https://github.com/disposable-email-domains/disposable-email-domains/blob/master/disposable_email_blocklist.conf) \
 [MailHeader](https://mailheader.org/) Analyze Email headers \
 [Osint.sh Reverse Whois](https://osint.sh/reversewhois/) Allow you to find domain names owned by an email address \
-[Reverse MX Record](https://osint.sh/reversemx/) Reveal all domains that use the same mail server
+[Reverse MX Record](https://osint.sh/reversemx/) Reveal all domains that use the same mail server \
+[Email Security Check](https://emailsecuritycheck.service.ncsc.gov.uk/check)  Check the spf and dmarc of an email address domain
