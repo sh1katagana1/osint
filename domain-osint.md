@@ -428,7 +428,13 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Osint.sh DNS Lookup](https://osint.sh/dns/) Provides a report on DNS records for a specified domain or hostname \
 [Osint.sh Whois History](https://osint.sh/whoishistory/) Lets you see all the historical WHOIS records of a domain name \
 [Osint.sh GeoIP lookup](https://osint.sh/ip/) Find a geolocation of an IP address or a domain including city, region and country. \
-[Osint.sh](https://osint.sh/reversens/) Reveal all domains that use the same name server
+[Osint.sh](https://osint.sh/reversens/) Reveal all domains that use the same name server \
+[Dig Web Interface](https://digwebinterface.com/?hostnames=&type=&showcommand=on&colorize=on&sort=on&compare=on&location=on&ns=resolver&useresolver=8.8.4.4&nameservers=) online version of Dig. \
+[Domain Tools](https://whois.domaintools.com) General Whois domain searching. \
+[Dnslytics](https://dnslytics.com/reverse-ip)  Reverse IP lookup. \
+[DNS Security](https://check.merox.io/) This checks a domains dmarc and spf settings. \
+[Where Goes](https://wheregoes.com/) Put a domain in and it will analyze all the redirects of where it goes. \
+[Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain.
 
 
 
