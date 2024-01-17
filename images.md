@@ -10,6 +10,16 @@ Usage
 Syntax:  exiftool [OPTIONS] FILE
 ```
 
+## Favicons
+[Favihash](https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/favihash.py) A script to extract favicon hashes \
+[Criminal IP](https://www.criminalip.io) This will give you Favicon IDs as well \
+Once you have the favicon ID you can see if other IP addresses are associated with it by using the Shodan CLI:
+```
+shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --separator " " | awk '{print $1":"$2}'
+```
+
+
+## General Links
 [Google](https://images.google.com/?gws_rd=ssl) \
 [Bing](https://www.bing.com/images/feed) \
 [TinEye](https://tineye.com/) \
