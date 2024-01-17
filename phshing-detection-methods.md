@@ -1,6 +1,6 @@
 # Phishing Detection Methods
 Phishing is and has been one of the main initial access attack vectors employed by threat actors. They will try numerous ways to fool their victims, but as a company looking to protect yourself from this, there are some things you can do to try and catch it before it becomes a disaster. One of the most common ways threat actors phish is to make lookalike domains similar to your companies websites. To combat this, we need to first understand the different ways they will try to mimic your name. \
-Domain Name Variation Techniques: \
+Domain Name Variation Techniques: 
 1. Keyword: The domain name contains an important keyword of the original domain (e.g., zelster.com-management.com).
 2. hypened subdomain: Change the dot for a hyphen of a subdomain (e.g., www-zelster.com).
 3. New TLD: Same domain using a new TLD (e.g., zelster.org)
