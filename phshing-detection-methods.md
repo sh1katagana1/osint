@@ -35,7 +35,8 @@ This is great because you can the most recent by date and you can easily see if 
 
 [CertStream](https://certstream.calidog.io) This is another great realtime certificate site. You can see SSL certificates as they're issued in real time, allowing you to use it as a building block to make tools that react to new certificates being issued in real time. \
 [Phishing Catcher](https://github.com/x0rz/phishing_catcher) Catch possible phishing domains in near real time by looking for suspicious TLS certificate issuances reported to the Certificate Transparency Log (CTL) via the CertStream API. "Suspicious" issuances are those whose domain name scores beyond a certain threshold based on a configuration file. So essentially, there is a configuration file and it has keywords that you can assign numbers to in order see if a certificate matches one or more of those keywords, thus driving the score up to be suspicious. It comes with an included keyword config file with the most common you would see. \
-[Whoxy](https://www.whoxy.com/newly-registered-domains/) This is another site that gives you regsistered domain lists. 
+[Whoxy](https://www.whoxy.com/newly-registered-domains/) This is another site that gives you regsistered domain lists. \
+[Browserling](https://www.browserling.com/browser-sandbox) Open suspicious pages in this online sandbox
 
 
 
