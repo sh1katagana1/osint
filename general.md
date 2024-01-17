@@ -24,4 +24,7 @@
 [Hunter How](https://hunter.how) Goog all around threat search engine. Make sure to reference the search guide to understand the syntax needed. \
 [Talos](https://talosintelligence.com/) General reputation scanner. Look up a domains reputation score. \
 [URLVoid](https://www.urlvoid.com/) Another general reputation scanner for a domain. \
-[Scam Advisor](https://www.scamadviser.com/) Another reputation scanner for a domain. 
+[Scam Advisor](https://www.scamadviser.com/) Another reputation scanner for a domain. \
+[Cyber Gordon](https://cybergordon.com/) Reputation scanner \
+[Blacklist Checker](https://blacklistchecker.com/) Put a domain in and it will tell you if its on any blacklists. 
+
