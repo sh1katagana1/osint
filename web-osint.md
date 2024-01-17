@@ -205,5 +205,6 @@ ffuf -c -w /path/to/wordlist -u https://target/FUZZ -r true
  [Link Extractor](https://coveryourtracks.eff.org/) \
  [BuiltWith](https://builtwith.com/) \
  [Project Discovery List of Public Bug Bounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs) \
- [Osint.sh Tech Stack](https://osint.sh/stack/) View the technology stack of any website
+ [Osint.sh Tech Stack](https://osint.sh/stack/) View the technology stack of any website \
+ [CMS Analyzer](https://hackertarget.com/wordpress-security-scan/) Checks things like Wordpress on a site, plugins, if user enumeration is possible, etc.
 
