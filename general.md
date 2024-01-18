@@ -30,5 +30,7 @@
 [NMap Online](https://hackertarget.com/nmap-online-port-scanner/) Online version of the nmap scanner. \
 [Netcraft Site Report](https://sitereport.netcraft.com) General intel about a domain. \
 [OpenVAS Online](https://hostedscan.com/openvas-vulnerability-scan) Run a vulnerability scan on a URL and get the results emailed to you. \
-[Pulsedive](https://pulsedive.com/) Online threat intelligence platform.
+[Pulsedive](https://pulsedive.com/) Online threat intelligence platform. \
+[Similar Sites](https://www.similarsites.com) Great when you need to find competing companies to your target. \
+[Similar Websites](https://www.sitelike.org) Another similar site search.
 
