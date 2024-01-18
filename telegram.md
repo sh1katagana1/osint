@@ -16,3 +16,5 @@ A more comprehensive search
 ```
 telepathy -t durov -c
 ```
+## General Links
+[Lyzem](https://lyzem.com) A search engine for telegram and telegraph.
