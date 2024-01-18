@@ -13,4 +13,5 @@ python3 metagoofil.py -d wingnut.com -t ALL
 [Doxbin](https://doxbin.org/) Document search \
 [PDF Search](http://findpdfdoc.com/) \
 [Napalm FTP](https://www.searchftps.net/) \
-[Mamont FTP](https://www.mmnt.ru/int/) 
+[Mamont FTP](https://www.mmnt.ru/int/) \
+[Intelx Doc Finder](https://intelx.io/tools?tab=file) Document Finder from Intelx.
