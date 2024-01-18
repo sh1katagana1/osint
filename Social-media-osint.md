@@ -215,6 +215,9 @@ https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT
 
 # Pastebin
 
-https://psbdmp.ws/
+https://psbdmp.ws/ 
+
+## General Links
+[Blackbird](https://blackbird-osint.herokuapp.com/) Plug a username in and have it check across over 500 sites
 
 
