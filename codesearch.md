@@ -94,5 +94,6 @@ Args:
 [Custom Search Engine](https://cipher387.github.io/code_repository_google_custom_search_engines/) \
 [explainshell](https://explainshell.com/) \
 [Codefinder](https://codefinder.org/) \
-[Github Search](https://github.com/search)
+[Github Search](https://github.com/search) \
+[Forager](https://forager.trufflesecurity.com/explore) Trufflehogs public database of found leaked API keys.
 
