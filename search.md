@@ -87,5 +87,7 @@ Optional options:
     -l, --list                       Only list file urls in a JSON format with the archived timestamps, won't download anything
 ```
 
-
+## Forums and Boards
+[Blog Search Engine](http://www.blogsearchengine.org) A good site to search blogs by keywords. \
+[Board Reader](https://boardreader.com) Another board reader.
 
