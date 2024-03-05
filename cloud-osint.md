@@ -6,11 +6,11 @@ https://github.com/nuncan/slurp
 **Description** Enumerate S3 buckets via certstream, domain, or keywords. \
 ### Enumerate the S3 domains for a specific target.
 ```
-slurp domain <-t|--target> google.com
+slurp domain -t google.com
 ```
 ### Enumerate S3 buckets based on 3 key words.
 ```
-slurp keyword <-t|--target> linux,golang,python
+slurp keyword -t linux,golang,python
 ```
 ### Follow certstream and enumerate S3 buckets from each domain.
 ```
