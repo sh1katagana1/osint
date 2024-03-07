@@ -49,6 +49,20 @@ python3 dnsrecon.py -d wingnut.com
 sudo masscan -p 80,8000-8100 10.2.2.2/22 --rate=10000
 ```
 
+## shosubgo
+https://github.com/incogbyte/shosubgo
+
+**Description** Small tool to Grab subdomains using Shodan api.
+
+Install
+```
+go install github.com/incogbyte/shosubgo@latest
+```
+Run
+```
+./shosubgo -d chucknorris.com -s <your shodan api key>
+```
+
 
 ## Sublist3r
 
