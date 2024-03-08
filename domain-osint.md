@@ -370,13 +370,16 @@ subfinder -d leroyjenkins.com
 ## BBOT
 https://github.com/blacklanternsecurity/bbot \
 BBOT (Bighuge BLS OSINT Tool) is a modular, recursive OSINT framework that can execute the entire OSINT workflow in a single command. BBOT is inspired by Spiderfoot but takes it to the next level with features like multi-target scans, lightning-fast asyncio performance, and NLP-powered subdomain mutations. It offers a wide range of functionality, including subdomain enumeration, port scanning, web screenshots, vulnerability scanning, and much more. \
+
+It appears that you have to run it from its venv location, which by default in Kali is .local/share/pipx/venvs/bbot/bin. Then from there do ./bbot
+
 Installation
 ```
 pipx install bbot
 ```
-Perform a full subdomain enumeration on evilcorp.com
+Perform a full subdomain enumeration on evilcorp.com, along with cloud enumeration
 ```
-bbot -t evilcorp.com -f subdomain-enum
+bbot -t evilcorp.com -f subdomain-enum cloud-enum
 ```
 Perform a passive-only subdomain enumeration on evilcorp.com
 ```
