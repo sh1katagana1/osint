@@ -405,6 +405,10 @@ You can clean up the output to just found subdomains per line like so:
 ```
 cat /root/.bbot/scans/{scan_name}/output.txt | grep -F '[DNS_NAME]’ | awk '{print $2}'
 ```
+API keys: I did note that when I modified the secrets.yaml file with my API keys, it did not seem to want to load them. However, there is a way to do it in your command itself. You would do your normal commaand but then do -c then the name of the module, then the API key. To get the names of the modules, go here: https://www.blacklanternsecurity.com/bbot/modules/list_of_modules/  A command example would be:
+```
+./bbot -t leroyjenkins.com -f subdomain-enum email-enum cloud-enum -c modules.shodan_dns.api_key=<api key> modules.builtwith.api_key=<api key> modules.binaryedge.api_key=<api key>
+```
 
 
 
