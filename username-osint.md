@@ -66,6 +66,32 @@ python blackbird.py -u crash --show-all
 ```
 
 
+## Mailcat
+The only cat who can find existing email addresses by nickname.
+
+https://github.com/sharsil/mailcat
+
+After cloning, setup python venv and install requirements
+```
+pip3 install -r requirements.txt
+```
+Usage
+```
+python3 mailcat.py <username>
+```
+Use Tor
+```
+python3 mailcat.py --tor username
+```
+Use Proxychains
+```
+proxychains4 -q python3 mailcat.py username
+```
+```
+python3 mailcat.py username --proxy http://1.2.3.4:8080
+```
+
+
 ## General Links
 
 [Family Tree](https://www.familytreenow.com)   This is a good site for just general people searching \
