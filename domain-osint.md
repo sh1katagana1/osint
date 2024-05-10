@@ -418,6 +418,7 @@ API keys: I did note that when I modified the secrets.yaml file with my API keys
 Its a good idea to search ASNs of the target company to see if they are in any other IP ranges. Go to https://bgp.he.net/ and type in the name of a company name (not the .com added to it) and search. It will give you a list of ASNs and Routes for anything matching that name. Looking under ASN, you may find additonal domains under the Prefix IPV4 tab
 
 ## General Sites
+[Certificate Transparency Search](https://ui.ctsearch.entrust.com/ui/ctsearchui) \
 [Dnsdumpster](https://dnsdumpster.com/) \
 [Crunchbase](https://www.crunchbase.com/) \
 [Robtex](https://www.robtex.com/) \
