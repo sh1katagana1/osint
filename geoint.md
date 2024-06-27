@@ -1,3 +1,3 @@
 # Geoint
 
-![Geohints](https://www.geohints.com/)
+**GeoHints** (https://www.geohints.com/)
