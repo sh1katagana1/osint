@@ -24,4 +24,4 @@
 **Sun Calculations**(http://suncalc.net/) \
 **What3Words**(https://what3words.com/) \
 **Map of left and right driving countries**(https://www.drivingdirectionsandmaps.com/map-of-the-left-right-driving-countries/) \
-**Geotastic**(https://geotastic.net/home Free alternative to Geoguesser)
+**Geotastic**(https://geotastic.net/home) Free alternative to Geoguesser
