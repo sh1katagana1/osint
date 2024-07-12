@@ -34,7 +34,8 @@ Examples of using Google to search real names:
 [Webmii](https://webmii.com/) This one found some social sites as well. Decent people search \
 [Social Searcher](https://social-searcher.com/) Social media search engine. Can be used to search for people mentions. \
 [Classmates](https://www.classmates.com) Find school information. \
-[Maniacs](Maniacs.info) A good site to see how common your first or last name is. 
+[Maniacs](Maniacs.info) A good site to see how common your first or last name is. \
+[NAMEINT](https://seintpl.github.io/NAMINT) A good full name search tool
 
 
 
