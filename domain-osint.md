@@ -410,6 +410,20 @@ API keys: I did note that when I modified the secrets.yaml file with my API keys
 ./bbot -t leroyjenkins.com -f subdomain-enum email-enum cloud-enum -c modules.shodan_dns.api_key=<api key> modules.builtwith.api_key=<api key> modules.binaryedge.api_key=<api key>
 ```
 
+## Scilla
+
+**Description** Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
+
+https://github.com/edoardottt/scilla
+
+**Install**
+```
+go install -v github.com/edoardottt/scilla/cmd/scilla@latest
+```
+**Usage**
+```
+scilla subdomain -target target.domain
+```
 
 
 
@@ -457,7 +471,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [DNS Security](https://check.merox.io/) This checks a domains dmarc and spf settings. \
 [Where Goes](https://wheregoes.com/) Put a domain in and it will analyze all the redirects of where it goes. \
 [Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain. \
-[BGP Info](https://bgp.tools) Get info on BGP things.
+[BGP Info](https://bgp.tools) Get info on BGP things. \
+[URLDna](https://urldna.io/)  Recon on a domain
 
 
 
