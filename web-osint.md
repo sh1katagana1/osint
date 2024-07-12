@@ -201,12 +201,29 @@ Directory enumeration. -c is to colorize the output, -w for wordlist, u for URL 
 ffuf -c -w /path/to/wordlist -u https://target/FUZZ -r true
 ```
 
+## Lazyegg
+
+**Description** LazyEgg is a powerful tool for extracting various types of data from a target URL. It can extract links, images, cookies, forms, JavaScript URLs, localStorage, Host, IP, and leaked credentials. Additionally, it includes a Chrome extension to log real-time JavaScript files as they are loaded.
+
+https://github.com/schooldropout1337/lazyegg
+
+Install
+```
+git clone https://github.com/schooldropout1337/lazyegg.git
+```
+Usage
+```
+python3 lazyegg.py https://example.com
+```
+
 ## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
  [BuiltWith](https://builtwith.com/) \
  [Project Discovery List of Public Bug Bounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs) \
  [Osint.sh Tech Stack](https://osint.sh/stack/) View the technology stack of any website \
  [CMS Analyzer](https://hackertarget.com/wordpress-security-scan/) Checks things like Wordpress on a site, plugins, if user enumeration is possible, etc. \
- [Web Check](https://web-check.xyz/) A good all around web page OSINT tool.
+ [Web Check](https://web-check.xyz/) A good all around web page OSINT tool. \
+ [Wordpress Scanner](https://hackertarget.com/wordpress-security-scan) Online wordpress scanner by hackerTarget. Free version only does passive scan \
+ [Information Laundromat](https://informationlaundromat.com/content-search) Interesting site to search for similarities in sites as well as similar text on different sites. 
  
 
