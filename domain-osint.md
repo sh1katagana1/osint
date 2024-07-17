@@ -472,7 +472,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Where Goes](https://wheregoes.com/) Put a domain in and it will analyze all the redirects of where it goes. \
 [Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain. \
 [BGP Info](https://bgp.tools) Get info on BGP things. \
-[URLDna](https://urldna.io/)  Recon on a domain
+[URLDna](https://urldna.io/)  Recon on a domain \
+[Have I Been Squatted](https://www.haveibeensquatted.com/) Typosquat search
 
 
 
