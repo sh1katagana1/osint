@@ -64,3 +64,6 @@ http://wwwb-dedup.us.archive.org:8083/cdx/search?url=chucknorris.com/&matchType=
 ```
 site:chucknorris.com inurl:php?=id1 | inurl:index.php?id= | inurl:pageid= | inurl:.php?
 ```
+
+## Tools
+[DorkGPT](https://dorkgpt.com/) Site to use AI to generate google dorks 
