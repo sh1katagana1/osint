@@ -191,6 +191,10 @@ This option used fuzzy hashes to compare two inputs (HTML code) and determine a 
 ```
 dnstwist -r --lsh ssdeep domain
 ```
+By default, ssdeep is used as LSH algorithm, but TLSH is also available and can be enabled like so:
+```
+dnstwist --lsh tlsh domain.name
+```
 This option display all the registered domains with different tld such as .edu, .eu, .org, .fr etc.
 ```
 dnstwist -r — tld dictionaries/common_tld.dict domain
