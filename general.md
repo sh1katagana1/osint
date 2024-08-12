@@ -36,3 +36,4 @@
 
 ## Tips
 1. When translating text in Google Translate, it wont let you translate a long run of text directly in the browser. To do this, save the text to a document and use Google Translates Document tab to upload the document to have it translate all of it. It can also do images and websites.
+2. If you have an image that has a different language text on it, you can go to Google Lens and upload it. From there you can highlight the section of the picture that has the text and hit Translate. 
