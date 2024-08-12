@@ -126,6 +126,10 @@ https://socialbearing.com/
 You put in a username and it gives you the Twitter ID associated with that account\
 https://tweeterid.com/
 
+## Tips
+1. if your target has their Twitter set to private, you can infer some intel based on replies. If you go to search and do "to: sh1katagana1" this will show all replies to that user. Sometimes it would infer things about the target. You can also search @sh1katagana1 for similar results.
+2. if your target used to have their account set to public and is now private, it is possible that search engines cached content when it was public. Try "site:twitter.com/sh1katagana1" to see if any cached results show up. Searching archive.org may show content as well.
+
 # Instagram
 
 ## Instaloader
