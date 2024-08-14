@@ -51,5 +51,6 @@ shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --se
 [FindFont](https://www.whatfontis.com/) \
 [What the Font](https://www.myfonts.com/pages/whatthefont) \
 [Facecheck](https://facecheck.id/) \
-[Face Eagle](http://faceagle.com/)
+[Face Eagle](http://faceagle.com/) \
+[FotoForensics](https://fotoforensics.com/) Excellent site with multiple ways to dive into an image.
 
