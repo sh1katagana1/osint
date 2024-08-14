@@ -35,5 +35,6 @@ shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --se
 [Reverse Image Analyzer](https://www.osintcombine.com/reverse-image-analyzer) \
 [FindFont](https://www.whatfontis.com/) \
 [What the Font](https://www.myfonts.com/pages/whatthefont) \
-[Facecheck](https://facecheck.id/)
+[Facecheck](https://facecheck.id/) \
+[Face Eagle](http://faceagle.com/)
 
