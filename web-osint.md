@@ -95,6 +95,15 @@ Export options
 python photon.py -u "http://example.com" --export=json
 ```
 
+## Gobuster
+**Description** Scans for directories using wordlists \
+https://github.com/OJ/gobuster \
+Basic directory scan using a wordlist:
+```
+gobuster dir -u https://www.trinet.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+
+
 ## WPScan
 
 **Description** Scans Wordpress sites
