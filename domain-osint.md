@@ -461,7 +461,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Is It Phishing](https://isitphishing.org/) \
 [Chaos](https://chaos.projectdiscovery.io/#/) \
 [Driftnet](https://driftnet.io/) A good attack surface analyzer \
-[Have I Been Squatted](https://www.haveibeensquatted.com/lookup) Domain squatting lookup \
+[Have I Been Squatted](https://www.haveibeensquatted.com) Domain squatting lookup \
 [DNSTwister](https://dnstwister.report/) Good site for checking domain infringement \
 [Osint.sh Subdomain Finder](https://osint.sh/subdomain/) Finds subdomains \
 [Osint.sh Reverse IP lookup](https://osint.sh/reverseip/) Pop in an ip address and get a result of A records associated \
@@ -476,8 +476,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Where Goes](https://wheregoes.com/) Put a domain in and it will analyze all the redirects of where it goes. \
 [Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain. \
 [BGP Info](https://bgp.tools) Get info on BGP things. \
-[URLDna](https://urldna.io/)  Recon on a domain \
-[Have I Been Squatted](https://www.haveibeensquatted.com/) Typosquat search
+[URLDna](https://urldna.io/)  Recon on a domain 
+
 
 
 
