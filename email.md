@@ -1,5 +1,19 @@
 # Email OSINT
 
+***
+
+## General Tips
+1. When starting an email investigation, consider focusing on the different parts of the email address. Those would be username, second-level domain and top-level domain. For example, in leroyjenkins@gmail.com, leroyjenkins is the username, gmail is the second-level and com is the top-level.
+2. The username portion of the email address can sometimes give additional intel about the target. For example, if its bob1985, its can be inferred it is a male born in 1985. Similarly, pug_lover1 can infer the person is a dog lover, useful info for phish content. Some may also include their country, city, state, political affiliation, etc.
+3. The second-level domain can also be used for intel. For example, a comcast one would indicate a home isp likely, while a gmail one would indicate its not likely a business email address. A yandex one can infer their geographical location. An ibm one could infer their place of employment. An icloud could infer their use of Apple products.
+4. Top-level domains can infer things like country, state and employer. Like .nl for country, .gov for government and .nyc for state.
+5. Start your email osint by putting them in popular search engines like Google and Bing inside quotation marks. This includes just searching the 3 specific portions I talked about above, like just the username, just the TLD, etc. Include dark web search engines for this as well as telegram.
+6. Also search in Breach Data sources
+7. Search the email in LinkedIn
+8. Search the email in Reddit
+9. Search the email in a public PGP key database. For that you could find a PGP public key, save it in notepad as a .asc file, then open it in Kleopatra https://www.openpgp.org/software/kleopatra/ and it will extract the username and email from it.
+10. Search the email in Whoxy to see if that email registered any domains
+
 ## Ghunt
 https://github.com/mxrch/GHunt \
 **Description** GHunt (v2) is an offensive Google framework, designed to evolve efficiently.
