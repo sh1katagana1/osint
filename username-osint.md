@@ -1,5 +1,10 @@
 # Username/People Threat Intel
 
+***
+
+## Tips
+1. Try searching keybase.io for usernames as they may have some PGP profile. site:keybase.io "username"
+
 ## Sherlock
 
 **Description:** 
