@@ -234,6 +234,7 @@ python3 lazyegg.py https://example.com
  [Web Check](https://web-check.xyz/) A good all around web page OSINT tool. \
  [Wordpress Scanner](https://hackertarget.com/wordpress-security-scan) Online wordpress scanner by hackerTarget. Free version only does passive scan \
  [Information Laundromat](https://informationlaundromat.com/content-search) Interesting site to search for similarities in sites as well as similar text on different sites. \
- [WhatCMS](https://whatcms.org/) Checks for what CMS a site is running.
+ [WhatCMS](https://whatcms.org/) Checks for what CMS a site is running. \
+ [Blacklight](https://themarkup.org/blacklight) An interesting site that will check if a site is doing session tracking, ad trackers,etc.
  
 
