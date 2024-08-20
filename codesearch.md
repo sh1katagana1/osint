@@ -95,5 +95,6 @@ Args:
 [explainshell](https://explainshell.com/) \
 [Codefinder](https://codefinder.org/) \
 [Github Search](https://github.com/search) \
-[Forager](https://forager.trufflesecurity.com/explore) Trufflehogs public database of found leaked API keys.
+[Forager](https://forager.trufflesecurity.com/explore) Trufflehogs public database of found leaked API keys. \
+[Nerdy Data](https://www.nerdydata.com/reports/new) You can specify specific code snippets and this site will look for sites that have that snippet.
 
