@@ -33,7 +33,8 @@
 [Pulsedive](https://pulsedive.com/) Online threat intelligence platform. \
 [Similar Sites](https://www.similarsites.com) Great when you need to find competing companies to your target. \
 [Similar Websites](https://www.sitelike.org) Another similar site search. \
-[Privacy Watch](https://privacywatch.app) Some general online OSINT tools.
+[Privacy Watch](https://privacywatch.app) Some general online OSINT tools. \
+[Webcam Network Project](http://www.the-webcam-network.com) Find webcams all over the world.
 
 ## Tips
 1. When translating text in Google Translate, it wont let you translate a long run of text directly in the browser. To do this, save the text to a document and use Google Translates Document tab to upload the document to have it translate all of it. It can also do images and websites.
