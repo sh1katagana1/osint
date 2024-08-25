@@ -70,6 +70,19 @@ By default only found accounts will be shown, however you can use the argument b
 python blackbird.py -u crash --show-all
 ```
 
+## Maigret
+https://github.com/soxoj/maigret \
+*Description* Maigret collects a dossier on a person by username only, checking for accounts on a huge number of sites and gathering all the available information from web pages. No API keys required. Maigret is an easy-to-use and powerful fork of Sherlock. \
+install from pypi
+'''
+pip3 install maigret
+'''
+
+# usage
+maigret username
+
+
+
 
 ## Mailcat
 The only cat who can find existing email addresses by nickname.
