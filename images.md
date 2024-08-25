@@ -52,5 +52,6 @@ shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --se
 [What the Font](https://www.myfonts.com/pages/whatthefont) \
 [Facecheck](https://facecheck.id/) \
 [Face Eagle](http://faceagle.com/) \
-[FotoForensics](https://fotoforensics.com/) Excellent site with multiple ways to dive into an image.
+[FotoForensics](https://fotoforensics.com/) Excellent site with multiple ways to dive into an image. \
+[Generated Photos](https://generated.photos) AI generated copyright-free generated photos.
 
