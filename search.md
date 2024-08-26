@@ -42,7 +42,8 @@ The interesting piece of this one is that it does have a GUI Advanced Search and
 [Mojeek](https://www.mojeek.com/) No tracking, just search \
 [ETools](https://www.etools.ch/) eTools.ch searches major Swiss and international search engines and offers you the best results in full privacy \
 [Qwant](https://www.qwant.com/) Another privacy focused search. Mostly pulls Bing results \
-[Baidu In English](http://www.baiduinenglish.com/) An engine that takes Baidu results (Chinese) and automatically translates it to English 
+[Baidu In English](http://www.baiduinenglish.com/) An engine that takes Baidu results (Chinese) and automatically translates it to English \
+[FOFA](https://fofa.info/) Cyberspace search engine.
 
 
 ## Translater Sites
