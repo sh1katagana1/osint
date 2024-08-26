@@ -35,7 +35,8 @@
 [Similar Websites](https://www.sitelike.org) Another similar site search. \
 [Privacy Watch](https://privacywatch.app) Some general online OSINT tools. \
 [Webcam Network Project](http://www.the-webcam-network.com) Find webcams all over the world. \
-[Opentopia](http://www.opentopia.com) Another live webcam site.
+[Opentopia](http://www.opentopia.com) Another live webcam site. \
+[This X Doesnt Exist](https://thisxdoesnotexist.com) Multiple "does not exist" type of sites.
 
 ## Tips
 1. When translating text in Google Translate, it wont let you translate a long run of text directly in the browser. To do this, save the text to a document and use Google Translates Document tab to upload the document to have it translate all of it. It can also do images and websites.
