@@ -237,6 +237,7 @@ python3 lazyegg.py https://example.com
  [WhatCMS](https://whatcms.org/) Checks for what CMS a site is running. \
  [Blacklight](https://themarkup.org/blacklight) An interesting site that will check if a site is doing session tracking, ad trackers,etc. \
  [Tiny Scan](https://www.tiny-scan.com) Effortlessly Dive into URL Details. \
- [Stored Website](https://stored.website/) A site for cached webpages.
+ [Stored Website](https://stored.website/) A site for cached webpages. \
+ [Wappalyzer](https://www.wappalyzer.com) See what technology is on a site.
  
 
