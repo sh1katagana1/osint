@@ -11,4 +11,5 @@ General Sites: \
 [Just Get My Data](https://justgetmydata.com/) \
 [Firefox Debloat](https://github.com/amq/firefox-debloat) \
 [Cover your tracks](https://coveryourtracks.eff.org/) \
-[Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
+[Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) \
+[Just Delete Me](https://backgroundchecks.org/justdeleteme/) Remove yourself from sites.
