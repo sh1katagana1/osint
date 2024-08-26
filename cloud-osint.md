@@ -192,4 +192,5 @@ ruby lazys3.rb <COMPANY>
 ```
 
 ## Online Tools
-[osint.sh Public Buckets](https://osint.sh/buckets/) Good site to search public buckets by keywords and extensions
+[osint.sh Public Buckets](https://osint.sh/buckets/) Good site to search public buckets by keywords and extensions \
+[S3Digger](https://s3digger.com/index.html#gsc.tab=0) Search s3 buckets
