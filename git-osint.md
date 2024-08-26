@@ -52,3 +52,6 @@ Usage
 ./Gdorklinks.sh  NameOfSomeCompanyMaybe
 ```
 
+## General Links
+[Github Dork Generator](https://github-dorks.vercel.app)
+
