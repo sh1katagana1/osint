@@ -236,6 +236,7 @@ python3 lazyegg.py https://example.com
  [Information Laundromat](https://informationlaundromat.com/content-search) Interesting site to search for similarities in sites as well as similar text on different sites. \
  [WhatCMS](https://whatcms.org/) Checks for what CMS a site is running. \
  [Blacklight](https://themarkup.org/blacklight) An interesting site that will check if a site is doing session tracking, ad trackers,etc. \
- [Tiny Scan](https://www.tiny-scan.com) Effortlessly Dive into URL Details.
+ [Tiny Scan](https://www.tiny-scan.com) Effortlessly Dive into URL Details. \
+ [Stored Website](https://stored.website/) A site for cached webpages.
  
 
