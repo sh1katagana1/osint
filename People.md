@@ -35,7 +35,13 @@ Examples of using Google to search real names:
 [Social Searcher](https://social-searcher.com/) Social media search engine. Can be used to search for people mentions. \
 [Classmates](https://www.classmates.com) Find school information. \
 [Maniacs](Maniacs.info) A good site to see how common your first or last name is. \
-[NAMEINT](https://seintpl.github.io/NAMINT) A good full name search tool
+[NAMEINT](https://seintpl.github.io/NAMINT) A good full name search tool \
+[FaceCheck](https://facecheck.id/) Find People Online by Photo. \
+[Judy Records](https://www.judyrecords.com/) Court Case records \
+[Hudway Glass](https://hudwayglass.com/) Reverse Street Address search \
+[Inmate Locator](https://www.bop.gov/inmateloc/;jsessionid=0C59EFF9E48871F1C5324E366FC91B05) Search federal inmates incarcerated from 1982 to the present. \
+[UK National Archives](https://www.nationalarchives.gov.uk/) Search UK National Archives. \
+[Voter Records](https://voterrecords.com/) Look up registered voters
 
 
 
