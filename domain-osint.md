@@ -436,30 +436,30 @@ scilla subdomain -target target.domain
 Its a good idea to search ASNs of the target company to see if they are in any other IP ranges. Go to https://bgp.he.net/ and type in the name of a company name (not the .com added to it) and search. It will give you a list of ASNs and Routes for anything matching that name. Looking under ASN, you may find additonal domains under the Prefix IPV4 tab
 
 ## General Sites
-[Certificate Transparency Search](https://ui.ctsearch.entrust.com/ui/ctsearchui) \
-[Dnsdumpster](https://dnsdumpster.com/) \
-[Crunchbase](https://www.crunchbase.com/) \
-[Robtex](https://www.robtex.com/) \
-[Hackertarget](https://hackertarget.com/reverse-dns-lookup) \
-[Whois](https://who.is/) \
-[AnalyzeID](https://analyzeid.com/) \
-[Domain Check](https://centralops.net/asp/co/DomainCheck.vbs.asp) \
-[Greynoise](https://viz.greynoise.io/) \
-[ShortLinks](https://seintpl.github.io/osint/short-links-verification-cheatsheet) \
-[UrlScan](https://urlscan.io/) \
-[ViewDNSInfo](https://viewdns.info/) \
-[What is my IP](https://whatismyipaddress.com/) \
-[Whoxy](https://www.whoxy.com/) \
-[I know what you download](https://iknowwhatyoudownload.com/en/peer/) \
-[InfoByIP](https://www.infobyip.com/) \
-[IP Fingerprints](https://www.ipfingerprints.com/) \
-[IP Void](https://www.ipvoid.com/) \
-[Live IP Map](https://www.liveipmap.com/) \
-[URLQuery](https://urlquery.net/) \
-[URLHaus](https://urlhaus.abuse.ch/) \
-[WebCheck](https://web-check.as93.net/) \
-[Is It Phishing](https://isitphishing.org/) \
-[Chaos](https://chaos.projectdiscovery.io/#/) \
+[Certificate Transparency Search](https://ui.ctsearch.entrust.com/ui/ctsearchui) Certificate Transparency (CT) Searching gives organizations an opportunity to review SSL/TLS certificates that have been issued in their name \
+[Dnsdumpster](https://dnsdumpster.com/) dns recon & research, find & lookup dns records \
+[Crunchbase](https://www.crunchbase.com/) Good corporate information on a company, like acquisitions \
+[Robtex](https://www.robtex.com/) Robtex is used for various kinds of research of IP numbers, Domain names, etc \
+[Hackertarget](https://hackertarget.com/reverse-dns-lookup) A number of different tools \
+[Whois](https://who.is/) Original Whois \
+[AnalyzeID](https://analyzeid.com/) Find Other Websites Owned By The Same Person \
+[Domain Check](https://centralops.net/asp/co/DomainCheck.vbs.asp) See if a domain is available \
+[Greynoise](https://viz.greynoise.io/) Search Internet Noise \
+[ShortLinks](https://seintpl.github.io/osint/short-links-verification-cheatsheet) Short links verification cheatsheet \
+[UrlScan](https://urlscan.io/) A sandbox for the web \
+[ViewDNSInfo](https://viewdns.info/) Multiple DNS Tools \
+[What is my IP](https://whatismyipaddress.com/) Check what your actual IP address is \
+[Whoxy](https://www.whoxy.com/) Great Domain lookup tool \
+[I know what you download](https://iknowwhatyoudownload.com/en/peer/) Torrent downloads search \
+[InfoByIP](https://www.infobyip.com/) IP address information \
+[IP Fingerprints](https://www.ipfingerprints.com/) Geolocate by IP \
+[IP Void](https://www.ipvoid.com/) A vast range of IP address tools to discover details about IP addresses.  \
+[Live IP Map](https://www.liveipmap.com/) LiveIPMap.com allows you to lookup or report an IP abuse case.  \
+[URLQuery](https://urlquery.net/) urlquery is a service for URL and domain scanning, identifying and categorizing potentially harmful elements on a webpage, checking for malware infections and assessing overall reputation.  \
+[URLHaus](https://urlhaus.abuse.ch/) URLhaus is a project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution. \
+[WebCheck](https://web-check.as93.net/) Good details on a website \
+[Is It Phishing](https://isitphishing.org/) Put an organization name in and check if its a victim of phishing \
+[Chaos](https://chaos.projectdiscovery.io/#/) Live and comprehensive internet data API, this dataset is actively updated with DNS entries across the entire internet. \
 [Driftnet](https://driftnet.io/) A good attack surface analyzer \
 [Have I Been Squatted](https://www.haveibeensquatted.com) Domain squatting lookup \
 [DNSTwister](https://dnstwister.report/) Good site for checking domain infringement \
@@ -480,7 +480,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Website Informer](https://website.informer.com) Basic information about a website. \
 [FOFA](https://en.fofa.info/) A basic web scanner \
 [White Intel](https://whiteintel.io) Interesting info on a domain. \
-[Full Hunt](https://fullhunt.io/) Discover, monitor, and secure your attack surface. FullHunt delivers the best platform in the market for attack surface security.
+[Full Hunt](https://fullhunt.io/) Discover, monitor, and secure your attack surface. FullHunt delivers the best platform in the market for attack surface security. \
+[Netlas](https://app.netlas.io/host/) Domain Scanner
 
 
 
