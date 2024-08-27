@@ -110,6 +110,8 @@ python3 mailcat.py username --proxy http://1.2.3.4:8080
 [Social Searcher](https://www.social-searcher.com) This is useful for @mentions of people \
 [WhatsMyNameWeb](https://whatsmyname.app) The web version of WhatsMyName. This one is good and you can export the results too \
 [namechk](https://namechk.com) This one is good to pop in a company name and see how many domains are registered with that keyword \
+[Namecheckr](https://www.namecheckr.com/) Username search \
+[Name Checkup](https://namecheckup.com/) Username search \
 [Fast People Search](https://www.fastpeoplesearch.com/) People Search \
 [Instant Username](https://instantusername.com/#) Username Search \
 [192](https://www.192.com/) UK People Search \
@@ -121,6 +123,11 @@ python3 mailcat.py username --proxy http://1.2.3.4:8080
 [Open Sanctions](https://www.opensanctions.org) Sanctions search \
 [SSN Lookup](https://ics.uci.edu/~dan/genealogy/Miller/javascrp/ssn.htm) Social Security Number location origin search \
 [Spokeo](https://www.spokeo.com/?s1=a5425d5a5e3911ee806ca18c0a1eba22&g=phone_12670531_100085299_A4822843475) \
+[Checkuser](https://checkuser.vercel.app/) Another username search. \
+[Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) Another username search. \
+[Id Crawl](https://www.idcrawl.com/username) Username search. \
+[Usersearch](https://www.usersearch.org/) Find someone by username, email, phone number or picture across Social Networks, Dating Sites, Forums, Crypto Forums, Chat Sites and Blogs \
+[User Searcher](https://www.user-searcher.com/)  User-Searcher is a powerful and free tool to help you search username in 2000+ websites.
 
 
 
