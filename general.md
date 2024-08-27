@@ -41,7 +41,9 @@
 [Information Laundromat](https://informationlaundromat.com) Put a string of text in and search for that same text across the internet. \
 [Proxy List](https://github.com/TheSpeedX/PROXY-List). Updated list of Proxies. \
 [Geonode](https://geonode.com/free-proxy-list) List of free proxies \
-[TheOneTracker](https://theonetracker.com) Good all around tracker list
+[TheOneTracker](https://theonetracker.com) Good all around tracker list \
+[Google trends](https://trends.google.com/trends?geo=US&hl=en-US) Put in keywords and see trends for that keyword. \
+[Word Tracker](https://www.wordtracker.com/) Keyword Search.
 
 ## Tips
 1. When translating text in Google Translate, it wont let you translate a long run of text directly in the browser. To do this, save the text to a document and use Google Translates Document tab to upload the document to have it translate all of it. It can also do images and websites.
