@@ -481,7 +481,13 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [FOFA](https://en.fofa.info/) A basic web scanner \
 [White Intel](https://whiteintel.io) Interesting info on a domain. \
 [Full Hunt](https://fullhunt.io/) Discover, monitor, and secure your attack surface. FullHunt delivers the best platform in the market for attack surface security. \
-[Netlas](https://app.netlas.io/host/) Domain Scanner
+[Netlas](https://app.netlas.io/host/) Domain Scanner \
+[Hypestat](https://hypestat.com/) Statistics on a site. \
+[Netcraft](http://toolbar.netcraft.com/site_report?url=undefined#last_reboot) A good all around domain intel scan. \
+[Redirect Detective](https://redirectdetective.com/) See what redirects a URL has. \
+[StatCrop](https://www.statscrop.com/) Statistics on a site. \
+[Tiny Scan](https://www.tiny-scan.com/) Another powerful URL scan tool that provides comprehensive information about any given URL. Get insights into IP address, location, screenshots, technology stack, performance metrics, and more. \
+[Who Is Hosting This](https://whoishostingthis.com/) Find out who is hosting a URL.
 
 
 
