@@ -56,5 +56,10 @@ shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --se
 [Generated Photos](https://generated.photos) AI generated copyright-free generated photos. \
 [Picarta](https://picarta.ai) Uses AI to find the location of an uploaded photo. \
 [Aperisolve](https://www.aperisolve.com) Image forensics \
-[KarmaDecay](http://karmadecay.com) Find images on Reddit.
+[KarmaDecay](http://karmadecay.com) Find images on Reddit. \
+[ExifInfo](https://exifinfo.org) Image metadata. \
+[Extract Metadata](https://www.extractmetadata.com) Extract metadata 
+
+
+
 
