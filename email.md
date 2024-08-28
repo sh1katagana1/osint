@@ -68,4 +68,5 @@ holehe test@gmail.com
 [Osint.sh Reverse Whois](https://osint.sh/reversewhois/) Allow you to find domain names owned by an email address \
 [Reverse MX Record](https://osint.sh/reversemx/) Reveal all domains that use the same mail server \
 [Email Security Check](https://emailsecuritycheck.service.ncsc.gov.uk/check)  Check the spf and dmarc of an email address domain \
-[Tuta](https://tuta.com) German encrypted email service.
+[Tuta](https://tuta.com) German encrypted email service. \
+[Email Header Analyzer](https://iplocation.io/email-header-analyzer) Trace ip by email header.
