@@ -238,6 +238,8 @@ python3 lazyegg.py https://example.com
  [Blacklight](https://themarkup.org/blacklight) An interesting site that will check if a site is doing session tracking, ad trackers,etc. \
  [Tiny Scan](https://www.tiny-scan.com) Effortlessly Dive into URL Details. \
  [Stored Website](https://stored.website/) A site for cached webpages. \
- [Wappalyzer](https://www.wappalyzer.com) See what technology is on a site.
+ [Wappalyzer](https://www.wappalyzer.com) See what technology is on a site. \
+ [CRXcavator](https://crxcavator.io) Submit a Chrome Extension ID to scan
+
  
 
