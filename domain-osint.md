@@ -429,7 +429,8 @@ go install -v github.com/edoardottt/scilla/cmd/scilla@latest
 scilla subdomain -target target.domain
 ```
 
-
+## Robots.txt
+Append robots.txt to the end of any site to see if they show paths and domains. Much of this content would not be found in a search engine because of the "Disallow" setting. These Disallow instructions are telling the search engines to avoid scanning the folders. You can also use Archive.org to search previous versions of a site to see if they had one in the past.
 
 
 ## BGP ASN Search
@@ -471,7 +472,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Osint.sh](https://osint.sh/reversens/) Reveal all domains that use the same name server \
 [Dig Web Interface](https://digwebinterface.com/?hostnames=&type=&showcommand=on&colorize=on&sort=on&compare=on&location=on&ns=resolver&useresolver=8.8.4.4&nameservers=) online version of Dig. \
 [Domain Tools](https://whois.domaintools.com) General Whois domain searching. \
-[Dnslytics](https://dnslytics.com/reverse-ip)  Reverse IP lookup. \
+[Dnslytics](https://dnslytics.com/
 [DNS Security](https://check.merox.io/) This checks a domains dmarc and spf settings. \
 [Where Goes](https://wheregoes.com/) Put a domain >in and it will analyze all the redirects of where it goes. \
 [Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain. \
@@ -490,7 +491,9 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Who Is Hosting This](https://whoishostingthis.com/) Find out who is hosting a URL. \
 [BuiltWith](https://builtwith.com) You can use BuiltWith Relationships tab to find subdomains based on similar analytic tags \
 [Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain?view_report=true) This has a limited free light scan for subdomains. \
-[Columbus Project](https://columbus.elmasy.com/) One of the better subdomain searches. You can use the API too via terminal: curl -H "Accept: text/plain" "https://columbus.elmasy.com/lookup/example.com" > example.txt
+[Columbus Project](https://columbus.elmasy.com/) One of the better subdomain searches. You can use the API too via terminal: curl -H "Accept: text/plain" "https://columbus.elmasy.com/lookup/example.com" > example.txt \
+[Subdomainfinder](http://subdomainfinder.c99.nl/) A really good one that also shows which ones have an IP and which ones are behind Cloudflare. \
+[Shared Count](https://www.sharedcount.com/) This website provides one simple yet unique service. It searches your target domain and identifies its popularity on social networks such as Facebook and Twitter. It tells me that several people are talking about the website on these services.
 
 
 
