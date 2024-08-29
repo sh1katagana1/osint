@@ -487,7 +487,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Redirect Detective](https://redirectdetective.com/) See what redirects a URL has. \
 [StatCrop](https://www.statscrop.com/) Statistics on a site. \
 [Tiny Scan](https://www.tiny-scan.com/) Another powerful URL scan tool that provides comprehensive information about any given URL. Get insights into IP address, location, screenshots, technology stack, performance metrics, and more. \
-[Who Is Hosting This](https://whoishostingthis.com/) Find out who is hosting a URL.
+[Who Is Hosting This](https://whoishostingthis.com/) Find out who is hosting a URL. \
+[BuiltWith](https://builtwith.com) You can use BuiltWith Relationships tab to find subdomains based on similar analytic tags
 
 
 
