@@ -473,7 +473,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Domain Tools](https://whois.domaintools.com) General Whois domain searching. \
 [Dnslytics](https://dnslytics.com/reverse-ip)  Reverse IP lookup. \
 [DNS Security](https://check.merox.io/) This checks a domains dmarc and spf settings. \
-[Where Goes](https://wheregoes.com/) Put a domain in and it will analyze all the redirects of where it goes. \
+[Where Goes](https://wheregoes.com/) Put a domain >in and it will analyze all the redirects of where it goes. \
 [Domain History](https://completedns.com/dns-history/) Checks the history of DNS changes for a domain. \
 [BGP Info](https://bgp.tools) Get info on BGP things. \
 [URLDna](https://urldna.io/)  Recon on a domain \
@@ -488,7 +488,9 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [StatCrop](https://www.statscrop.com/) Statistics on a site. \
 [Tiny Scan](https://www.tiny-scan.com/) Another powerful URL scan tool that provides comprehensive information about any given URL. Get insights into IP address, location, screenshots, technology stack, performance metrics, and more. \
 [Who Is Hosting This](https://whoishostingthis.com/) Find out who is hosting a URL. \
-[BuiltWith](https://builtwith.com) You can use BuiltWith Relationships tab to find subdomains based on similar analytic tags
+[BuiltWith](https://builtwith.com) You can use BuiltWith Relationships tab to find subdomains based on similar analytic tags \
+[Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain?view_report=true) This has a limited free light scan for subdomains. \
+[Columbus Project](https://columbus.elmasy.com/) One of the better subdomain searches. You can use the API too via terminal: curl -H "Accept: text/plain" "https://columbus.elmasy.com/lookup/example.com" > example.txt
 
 
 
