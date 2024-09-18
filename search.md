@@ -44,7 +44,8 @@ The interesting piece of this one is that it does have a GUI Advanced Search and
 [Qwant](https://www.qwant.com/) Another privacy focused search. Mostly pulls Bing results \
 [Baidu In English](http://www.baiduinenglish.com/) An engine that takes Baidu results (Chinese) and automatically translates it to English \
 [FOFA](https://fofa.info/) Cyberspace search engine. \
-[ISearchFrom](http://isearchfrom.com) A search engine where you can put the location where your searching from.
+[ISearchFrom](http://isearchfrom.com) A search engine where you can put the location where your searching from. \
+[4Chan Search](https://4chansearch.com) Search engine for 4Chan.
 
 
 ## Translater Sites
