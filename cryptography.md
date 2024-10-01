@@ -93,6 +93,9 @@ workbook.save("certificate_details.xlsx")
 print("Certificate details have been saved to certificate_details.xlsx")
 ```
 
+***
+
+
 
 [CyberChef](https://gchq.github.io/CyberChef/) The ultimate cryptography tool \
 [CRT](https://crt.sh/) Check certifcates \
