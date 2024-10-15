@@ -491,7 +491,7 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Who Is Hosting This](https://whoishostingthis.com/) Find out who is hosting a URL. \
 [BuiltWith](https://builtwith.com) You can use BuiltWith Relationships tab to find subdomains based on similar analytic tags \
 [Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain?view_report=true) This has a limited free light scan for subdomains. \
-[Columbus Project](https://columbus.elmasy.com/) One of the better subdomain searches. You can use the API too via terminal: curl -H "Accept: text/plain" "https://columbus.elmasy.com/lookup/example.com" > example.txt \
+[Whatsmydns](https://www.whatsmydns.net/dns-tools.html) Really good DNS tools \
 [Subdomainfinder](http://subdomainfinder.c99.nl/) A really good one that also shows which ones have an IP and which ones are behind Cloudflare. \
 [Shared Count](https://www.sharedcount.com/) This website provides one simple yet unique service. It searches your target domain and identifies its popularity on social networks such as Facebook and Twitter. It tells me that several people are talking about the website on these services. \
 [SEOTools Backlinks](https://smallseotools.com/backlink-checker/) Find backlinks linking to your site.
