@@ -243,7 +243,8 @@ This service analyzes the domain in real time, looking for linked pages within t
  [Tiny Scan](https://www.tiny-scan.com) Effortlessly Dive into URL Details. \
  [Stored Website](https://stored.website/) A site for cached webpages. \
  [Wappalyzer](https://www.wappalyzer.com) See what technology is on a site. \
- [CRXcavator](https://crxcavator.io) Submit a Chrome Extension ID to scan
+ [CRXcavator](https://crxcavator.io) Submit a Chrome Extension ID to scan \
+ [KeyCDNTools](https://tools.keycdn.com/) Good general tools for website osint.
 
  
 
