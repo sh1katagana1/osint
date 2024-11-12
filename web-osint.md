@@ -244,7 +244,8 @@ This service analyzes the domain in real time, looking for linked pages within t
  [Stored Website](https://stored.website/) A site for cached webpages. \
  [Wappalyzer](https://www.wappalyzer.com) See what technology is on a site. \
  [CRXcavator](https://crxcavator.io) Submit a Chrome Extension ID to scan \
- [KeyCDNTools](https://tools.keycdn.com/) Good general tools for website osint.
+ [KeyCDNTools](https://tools.keycdn.com/) Good general tools for website osint. \
+ [HTTP Header Test](https://developer.mozilla.org/en-US/observatory) Mozilla http header test tool.
 
  
 
