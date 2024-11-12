@@ -245,7 +245,8 @@ This service analyzes the domain in real time, looking for linked pages within t
  [Wappalyzer](https://www.wappalyzer.com) See what technology is on a site. \
  [CRXcavator](https://crxcavator.io) Submit a Chrome Extension ID to scan \
  [KeyCDNTools](https://tools.keycdn.com/) Good general tools for website osint. \
- [HTTP Header Test](https://developer.mozilla.org/en-US/observatory) Mozilla http header test tool.
+ [HTTP Header Test](https://developer.mozilla.org/en-US/observatory) Mozilla http header test tool. \
+ [SSL Tools](https://ssltools.com/) Good all around SSL check.
 
  
 
