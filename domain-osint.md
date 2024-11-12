@@ -494,7 +494,8 @@ Its a good idea to search ASNs of the target company to see if they are in any o
 [Whatsmydns](https://www.whatsmydns.net/dns-tools.html) Really good DNS tools \
 [Subdomainfinder](http://subdomainfinder.c99.nl/) A really good one that also shows which ones have an IP and which ones are behind Cloudflare. \
 [Shared Count](https://www.sharedcount.com/) This website provides one simple yet unique service. It searches your target domain and identifies its popularity on social networks such as Facebook and Twitter. It tells me that several people are talking about the website on these services. \
-[SEOTools Backlinks](https://smallseotools.com/backlink-checker/) Find backlinks linking to your site.
+[SEOTools Backlinks](https://smallseotools.com/backlink-checker/) Find backlinks linking to your site. \
+[MerkleMap](https://www.merklemap.com/) A good subdomain finder
 
 
 
