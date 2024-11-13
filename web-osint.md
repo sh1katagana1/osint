@@ -46,6 +46,7 @@ git clone https://github.com/EnableSecurity/wafw00f
 ```
 cd wafw00f
 ```
+```
 pipx install git+https://github.com/EnableSecurity/wafw00f.git
 ```
 Usage:
