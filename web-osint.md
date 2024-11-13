@@ -36,6 +36,35 @@ python3 finalrecon.py --full <url>
 python3 finalrecon.py https://wingnut.com --full -o finalrecon-results.txt
 ```
 
+## Wafw00f
+https://github.com/EnableSecurity/wafw00f?tab=readme-ov-file \
+**Description** This is a Web Application Firewall Fingerprinting Tool. It has a large list of WAFs that it runs signature tests against when you supply it a URL and gives you what it believes to be the WAF in use for that site. \
+Install:
+```
+git clone https://github.com/EnableSecurity/wafw00f
+```
+```
+cd wafw00f
+```
+pipx install git+https://github.com/EnableSecurity/wafw00f.git
+```
+Usage:
+```
+wafw00f https://leroyjenkins.com
+```
+You can also supply it multiple URLs
+```
+wafw00f https://leroyjenkins.com https://chucknorris.com
+```
+Dont pick the first hit it inds but rather test all of the WAFs to be sure
+```
+wafw00f https://leroyjenkins.com -a
+```
+Get a list of all supported WAFs
+```
+wafw00f --list
+```
+
 
 ## Eyewitness
 
