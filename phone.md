@@ -34,4 +34,13 @@ python3 phunter.py -a +33666666666 -o output.txt
 [Free SMS Verification](http://freesmsverification.com) Numbers that can be used for SMS verification. \
 [Temp Phone Number](https://temporary-phone-number.com) Recieve SMS from a temp phone number. \
 [Phonerator](https://www.martinvigo.com/tools/phonerator/) Phone number generator \
-[Phone Validator](https://www.phonevalidator.com) Check if number is tied to cell or landline.
+[Phone Validator](https://www.phonevalidator.com) Check if number is tied to cell or landline. \
+[US Phone Book](https://www.usphonebook.com) Only US phone numbers. \
+[True Caller](https://www.truecaller.com/) Can do international phone numbers as well. \
+[True People Search](https://www.truepeoplesearch.com) Has options for phone number as well as by a persons name. Looks to be US numbers only. \
+[Fast People Search](https://www.fastpeoplesearch.com) Can do name, phone or email. Phone appears to only be US. \
+[OK Caller](https://www.okcaller.com) General caller ID search. \
+[Search People Free](https://www.searchpeoplefree.com) General phone search, looks like US only. \
+[Valid Number](https://validnumber.com/) General phone search. US only \
+[Free Carrier Lookup](https://freecarrierlookup.com/) Look up a phone carrier. Looks like it does international as well. \
+[Country Code](https://countrycode.org/) List of all Countries phone codes. 
