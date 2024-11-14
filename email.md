@@ -69,4 +69,8 @@ holehe test@gmail.com
 [Reverse MX Record](https://osint.sh/reversemx/) Reveal all domains that use the same mail server \
 [Email Security Check](https://emailsecuritycheck.service.ncsc.gov.uk/check)  Check the spf and dmarc of an email address domain \
 [Tuta](https://tuta.com) German encrypted email service. \
-[Email Header Analyzer](https://iplocation.io/email-header-analyzer) Trace ip by email header.
+[Email Header Analyzer](https://iplocation.io/email-header-analyzer) Trace ip by email header. \
+[Castrick Clues](https://castrickclues.com/) General Email lookup. \
+[Experte](https://www.experte.com/email-verification) Email reputation. \
+[Google Toolbox Email Header Analyzer](https://toolbox.googleapps.com/apps/messageheader/) Email header analyzer. \
+[DNS Checker](https://toolbox.googleapps.com/apps/messageheader/) This has a feature for email header analysis. 
