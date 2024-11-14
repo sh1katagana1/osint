@@ -1,4 +1,32 @@
-#Phone OSINT
+# Phone OSINT
+
+***
+
+## Phunter
+https://github.com/N0rz3/Phunter \
+**Description** Phunter is a tool a very useful tool for finding information about a phone number. \
+Install
+```
+git clone https://github.com/N0rz3/Phunter.git
+```
+```
+cd Phunter
+```
+```
+pip3 install -r requirements.txt
+```
+Usage
+```
+python3 phunter.py -t +33666666666
+```
+You can also use a file of numbers
+```
+python3 phunter.py -f file.txt
+```
+Output
+```
+python3 phunter.py -a +33666666666 -o output.txt
+```
 
 
 ## General Links
