@@ -135,7 +135,9 @@ python3 mailcat.py username --proxy http://1.2.3.4:8080
 [Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) Another username search. \
 [Id Crawl](https://www.idcrawl.com/username) Username search. \
 [Usersearch](https://www.usersearch.org/) Find someone by username, email, phone number or picture across Social Networks, Dating Sites, Forums, Crypto Forums, Chat Sites and Blogs \
-[User Searcher](https://www.user-searcher.com/)  User-Searcher is a powerful and free tool to help you search username in 2000+ websites.
+[User Searcher](https://www.user-searcher.com/)  User-Searcher is a powerful and free tool to help you search username in 2000+ websites. \
+[Name Vine](https://namevine.com) General username search. \
+[Instant Username](https://instantusername.com) General username search. 
 
 
 
