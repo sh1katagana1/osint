@@ -23,7 +23,8 @@ The interesting piece of this one is that it does have a GUI Advanced Search and
 [Carrot2](https://search.carrot2.org/#/search/web) Carrot2 organizes your search results into topics \
 [BlogSearch](http://www.blogsearchengine.org/) A blog search engine \
 [Search Engine Colossus](https://www.searchenginecolossus.com/) A massive database of all different search engines \
-[Google Dork Cheatsheet 2023](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/?amp=1) Google Dork cheat sheet
+[Google Dork Cheatsheet 2023](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/?amp=1) Google Dork cheat sheet \
+[Dork Genius](https://dorkgenius.com/) AI generated dorks. \
 [Shodan](https://shodan.io) \
 [Onyphe](https://onyphe.io) \
 [Censys](https://search.censys.io/) \
