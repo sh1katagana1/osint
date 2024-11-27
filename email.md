@@ -74,4 +74,5 @@ holehe test@gmail.com
 [Experte](https://www.experte.com/email-verification) Email reputation. \
 [Google Toolbox Email Header Analyzer](https://toolbox.googleapps.com/apps/messageheader/) Email header analyzer. \
 [DNS Checker](https://toolbox.googleapps.com/apps/messageheader/) This has a feature for email header analysis. \
-[Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) check an email against differnt sites its associated with.
+[Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) check an email against differnt sites its associated with. \
+[Have I Been Sold](https://haveibeensold.app) check if your email has been sold.
