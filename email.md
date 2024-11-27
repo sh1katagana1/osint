@@ -76,4 +76,5 @@ holehe test@gmail.com
 [DNS Checker](https://toolbox.googleapps.com/apps/messageheader/) This has a feature for email header analysis. \
 [Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) check an email against differnt sites its associated with. \
 [Have I Been Sold](https://haveibeensold.app) check if your email has been sold. \
-[OSINT Rocks](https://osint.rocks) has a great email search.
+[OSINT Rocks](https://osint.rocks) has a great email search. \
+[Synapseint](https://synapsint.com) has a good email search.
