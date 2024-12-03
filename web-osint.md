@@ -259,6 +259,20 @@ python3 lazyegg.py https://example.com
 https://github.com/alentum/sitemapper-nodejs \
 This service analyzes the domain in real time, looking for linked pages within that domain. It provides an interactive graph that shows whether a domain has a lot of internal links that you may have missed. Highlighting any page will display the internal pages that connect to the selected page. This helps identify pages that are most "linked" within a domain, and may lead a researcher toward those important pages.
 
+## URL Finder
+https://github.com/projectdiscovery/urlfinder \
+**Description** URLFinder is a high-speed, passive URL discovery tool designed to simplify and accelerate web asset discovery, ideal for penetration testers, security researchers, and developers looking to gather URLs without active scanning. \
+Install:
+```
+go install -v github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
+```
+Usage:
+```
+./urlfinder -d microsoft.com
+```
+
+
+
 ## General Links
  [Link Extractor](https://coveryourtracks.eff.org/) \
  [BuiltWith](https://builtwith.com/) \
