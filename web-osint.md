@@ -271,6 +271,18 @@ Usage:
 ./urlfinder -d microsoft.com
 ```
 
+## Waymore
+https://github.com/xnl-h4ck3r/waymore \
+**Description** The idea behind waymore is to find even more links from the Wayback Machine than other existing tools. \
+Install
+```
+pip3 install waymore
+```
+Usage
+```
+waymore -i domain.com -mode U -l 200
+```
+
 
 
 ## General Links
