@@ -432,6 +432,30 @@ scilla subdomain -target target.domain
 ## Robots.txt
 Append robots.txt to the end of any site to see if they show paths and domains. Much of this content would not be found in a search engine because of the "Disallow" setting. These Disallow instructions are telling the search engines to avoid scanning the folders. You can also use Archive.org to search previous versions of a site to see if they had one in the past.
 
+## Naabu
+https://github.com/projectdiscovery/naabu \
+**Description** Naabu is a port scanning tool written in Go that allows you to enumerate valid ports for hosts in a fast and reliable manner. It is a really simple tool that does fast SYN/CONNECT/UDP scans on the host/list of hosts and lists all ports that return a reply. \
+Install
+```
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+```
+Basic Usage (default does nmap top 100 ports)
+```
+naabu -host hackerone.com
+```
+Scan a list of domains
+```
+naabu -list hosts.txt
+```
+Scan all ports
+```
+naabu -list hosts.txt -p -
+```
+Pipe to httpx to find running servers
+```
+echo hackerone.com | naabu -silent | httpx -silent
+```
+
 
 ## BGP ASN Search
 Its a good idea to search ASNs of the target company to see if they are in any other IP ranges. Go to https://bgp.he.net/ and type in the name of a company name (not the .com added to it) and search. It will give you a list of ASNs and Routes for anything matching that name. Looking under ASN, you may find additonal domains under the Prefix IPV4 tab
