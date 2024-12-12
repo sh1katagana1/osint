@@ -1,5 +1,88 @@
 # Domain Threat Intel
 
+***
+
+
+## Subfinder
+https://github.com/projectdiscovery/subfinder
+Subfinder is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
+```
+Usage:
+  ./subfinder [flags]
+
+Flags:
+INPUT:
+  -d, -domain string[]  domains to find subdomains for
+  -dL, -list string     file containing list of domains for subdomain discovery
+
+SOURCE:
+  -s, -sources string[]           specific sources to use for discovery (-s crtsh,github). Use -ls to display all available sources.
+  -recursive                      use only sources that can handle subdomains recursively (e.g. subdomain.domain.tld vs domain.tld)
+  -all                            use all sources for enumeration (slow)
+  -es, -exclude-sources string[]  sources to exclude from enumeration (-es alienvault,zoomeyeapi)
+
+FILTER:
+  -m, -match string[]   subdomain or list of subdomain to match (file or comma separated)
+  -f, -filter string[]   subdomain or list of subdomain to filter (file or comma separated)
+
+RATE-LIMIT:
+  -rl, -rate-limit int  maximum number of http requests to send per second
+  -rls value            maximum number of http requests to send per second four providers in key=value format (-rls "hackertarget=10/s,shodan=15/s")
+  -t int                number of concurrent goroutines for resolving (-active only) (default 10)
+
+UPDATE:
+   -up, -update                 update subfinder to latest version
+   -duc, -disable-update-check  disable automatic subfinder update check
+
+OUTPUT:
+  -o, -output string       file to write output to
+  -oJ, -json               write output in JSONL(ines) format
+  -oD, -output-dir string  directory to write output (-dL only)
+  -cs, -collect-sources    include all sources in the output (-json only)
+  -oI, -ip                 include host IP in output (-active only)
+
+CONFIGURATION:
+  -config string                flag config file (default "$HOME/.config/subfinder/config.yaml")
+  -pc, -provider-config string  provider config file (default "$HOME/.config/subfinder/provider-config.yaml")
+  -r string[]                   comma separated list of resolvers to use
+  -rL, -rlist string            file containing list of resolvers to use
+  -nW, -active                  display active subdomains only
+  -proxy string                 http proxy to use with subfinder
+  -ei, -exclude-ip              exclude IPs from the list of domains
+
+DEBUG:
+  -silent             show only subdomains in output
+  -version            show version of subfinder
+  -v                  show verbose output
+  -nc, -no-color      disable color in output
+  -ls, -list-sources  list all available sources
+
+OPTIMIZATION:
+  -timeout int   seconds to wait before timing out (default 30)
+  -max-time int  minutes to wait for enumeration results (default 10)
+```
+Install
+```
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+```
+Its best to install API keys with it. You can get to the config file here:
+```
+$HOME/.config/subfinder/provider-config.yaml
+```
+Pipe results of subfinder subdomains to httpx to see if it has a web service
+```
+echo trinet.com | ./subfinder -silent | ./httpx -silent
+```
+Find subdomains for a TLD
+```
+./subfinder -d example.com -o mysubs.txt
+```
+Enumerate subdomains for a list of domains
+```
+./subfinder -dL domains.txt -o all-subs.txt
+```
+
+
 ## Cloudflair
 https://github.com/christophetd/CloudFlair
 
@@ -13,24 +96,6 @@ python3 cloudflair.py leroy.com --censys-api-id <API key> --censys-api-secret <S
 --censys-api-secret <secret>
 -o output file
 
-## Cloudmare
-https://github.com/mrh0wl/Cloudmare
-
-**Description:**
-Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri or Incapsula with a misconfiguration DNS.
-```
-python3 Cloudmare.py -u ljenkins.com
-```
-
-
-## CloudUnflare
-https://github.com/greycatz/CloudUnflare
-
-**Description**
-Reconnaissance Real IP address for Cloudflare Bypass.
-```
-bash cloudunflare.bash
-```
 
 
 ## DnsRecon
@@ -301,76 +366,7 @@ pip3 install -r requirements.txt
 ```
 python3 DNSrazzle.py -d [Domain Name]
 ```
-## Subfinder
-https://github.com/projectdiscovery/subfinder
-Subfinder is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
-```
-Usage:
-  ./subfinder [flags]
 
-Flags:
-INPUT:
-  -d, -domain string[]  domains to find subdomains for
-  -dL, -list string     file containing list of domains for subdomain discovery
-
-SOURCE:
-  -s, -sources string[]           specific sources to use for discovery (-s crtsh,github). Use -ls to display all available sources.
-  -recursive                      use only sources that can handle subdomains recursively (e.g. subdomain.domain.tld vs domain.tld)
-  -all                            use all sources for enumeration (slow)
-  -es, -exclude-sources string[]  sources to exclude from enumeration (-es alienvault,zoomeyeapi)
-
-FILTER:
-  -m, -match string[]   subdomain or list of subdomain to match (file or comma separated)
-  -f, -filter string[]   subdomain or list of subdomain to filter (file or comma separated)
-
-RATE-LIMIT:
-  -rl, -rate-limit int  maximum number of http requests to send per second
-  -rls value            maximum number of http requests to send per second four providers in key=value format (-rls "hackertarget=10/s,shodan=15/s")
-  -t int                number of concurrent goroutines for resolving (-active only) (default 10)
-
-UPDATE:
-   -up, -update                 update subfinder to latest version
-   -duc, -disable-update-check  disable automatic subfinder update check
-
-OUTPUT:
-  -o, -output string       file to write output to
-  -oJ, -json               write output in JSONL(ines) format
-  -oD, -output-dir string  directory to write output (-dL only)
-  -cs, -collect-sources    include all sources in the output (-json only)
-  -oI, -ip                 include host IP in output (-active only)
-
-CONFIGURATION:
-  -config string                flag config file (default "$HOME/.config/subfinder/config.yaml")
-  -pc, -provider-config string  provider config file (default "$HOME/.config/subfinder/provider-config.yaml")
-  -r string[]                   comma separated list of resolvers to use
-  -rL, -rlist string            file containing list of resolvers to use
-  -nW, -active                  display active subdomains only
-  -proxy string                 http proxy to use with subfinder
-  -ei, -exclude-ip              exclude IPs from the list of domains
-
-DEBUG:
-  -silent             show only subdomains in output
-  -version            show version of subfinder
-  -v                  show verbose output
-  -nc, -no-color      disable color in output
-  -ls, -list-sources  list all available sources
-
-OPTIMIZATION:
-  -timeout int   seconds to wait before timing out (default 30)
-  -max-time int  minutes to wait for enumeration results (default 10)
-```
-Install
-```
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-```
-Its best to install API keys with it. You can get to the config file here:
-```
-$HOME/.config/subfinder/provider-config.yaml
-```
-Usage
-```
-subfinder -d leroyjenkins.com
-```
 ## BBOT
 https://github.com/blacklanternsecurity/bbot \
 BBOT (Bighuge BLS OSINT Tool) is a modular, recursive OSINT framework that can execute the entire OSINT workflow in a single command. BBOT is inspired by Spiderfoot but takes it to the next level with features like multi-target scans, lightning-fast asyncio performance, and NLP-powered subdomain mutations. It offers a wide range of functionality, including subdomain enumeration, port scanning, web screenshots, vulnerability scanning, and much more. \
