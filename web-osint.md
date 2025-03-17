@@ -306,7 +306,10 @@ waymore -i domain.com -mode U -l 200
  [VisualPing](https://visualping.io) Get a screenshot of a site as well as setting up monitoring of the site. \
  [BackLink Checker](https://neilpatel.com/backlinks/) Site for checking backlinks of a URL. \
  [AHREF Backlink checker](https://ahrefs.com/backlink-checker/) Another backlink checker. \
- [Larger](https://www.larger.io/) Tech Stack detection.
+ [Larger](https://www.larger.io/) Tech Stack detection. \
+ [IPVoid](https://www.ipvoid.com/) Lots of good recon tools. \
+ [LookyLoo](https://lookyloo.circl.lu/capture) Website forensics \
+ [Shimon](https://shimon-6983d71a338d.herokuapp.com/) URL fingerprinting. 
 
  
 
