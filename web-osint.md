@@ -305,7 +305,8 @@ waymore -i domain.com -mode U -l 200
  [SSL Tools](https://ssltools.com/) Good all around SSL check. \
  [VisualPing](https://visualping.io) Get a screenshot of a site as well as setting up monitoring of the site. \
  [BackLink Checker](https://neilpatel.com/backlinks/) Site for checking backlinks of a URL. \
- [AHREF Backlink checker](https://ahrefs.com/backlink-checker/) Another backlink checker. 
+ [AHREF Backlink checker](https://ahrefs.com/backlink-checker/) Another backlink checker. \
+ [Larger](https://www.larger.io/) Tech Stack detection.
 
  
 
