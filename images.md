@@ -58,7 +58,8 @@ shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --se
 [Aperisolve](https://www.aperisolve.com) Image forensics \
 [KarmaDecay](http://karmadecay.com) Find images on Reddit. \
 [ExifInfo](https://exifinfo.org) Image metadata. \
-[Extract Metadata](https://www.extractmetadata.com) Extract metadata 
+[Extract Metadata](https://www.extractmetadata.com) Extract metadata \
+[Favihash](https://www.favihash.com/) Grab the favicon hash of a site or file.
 
 
 
