@@ -111,6 +111,7 @@ Find tweets linking to a specific website containing a given search term
 ```
 url:sh1katagana1.com security
 ```
+- [Back](#social-media-threat-intel)
 
 
 ## Twitter Advanced Search
