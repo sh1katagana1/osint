@@ -46,35 +46,44 @@ uid:notmyemail@protonmail.com <notmyemail@protonmail.com>:1623879788::
 The last set of digits (1623879788) represents an Epoch Unix timestamp. We can convert that number into a date and time at
 https://www.unixtimestamp.com/index.php. This tells me that the account was created on or before Wednesday, June 16, 2021 at 21:43:08 GMT.
 
+***
+
   
 ## General Links
-[Emailrep](https://emailrep.io/) Email reputation search \
-[Epieos](https://epieos.com) Retrieve information linked to an email address \
-[GuerillaMail](https://www.guerrillamail.com) Anonymous email \
-[Hunter](https://hunter.io) Email Investigation \
-[Email Dossier](https://centralops.net/co/emaildossier.aspx) Email Investigation \
-[Email Hippo](https://tools.emailhippo.com/) Email Verification \
+[Breach Directory](https://breachdirectory.org) Similar to Leak Peek but this one will give you a SHA1 hash beside the partial password. A lot of times you can go to https://md5decrypt.net/en/Sha1/ put the SHA1 in and it will decrypt the full password. \
+[Breach VIP](https://breach.vip) Multiple categories including email to check for breach or leak data. \
+[Castrick Clues](https://castrickclues.com/) General Email lookup. \
+[CleanTalk](https://cleantalk.org/) A reputation service. https://cleantalk.org/email-checker/acidicloop@gmail.com will show if its valid and clean. \
+[Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) check an email against differnt sites its associated with. \
+[DNS Checker](https://toolbox.googleapps.com/apps/messageheader/) This has a feature for email header analysis. \
 [Email Checker](https://email-checker.net/) \
+[Email Dossier](https://centralops.net/co/emaildossier.aspx) Email Investigation \
 [Email Formats](https://www.email-format.com/) Find the email address formats in use at thousands of companies \
 [Email Header Analysis](https://www.iptrackeronline.com/email-header-analysis.php) \
+[Email Header Analyzer](https://iplocation.io/email-header-analyzer) Trace ip by email header. \
+[Email Hippo](https://tools.emailhippo.com/) Email Verification \
+[Email Security Check](https://emailsecuritycheck.service.ncsc.gov.uk/check)  Check the spf and dmarc of an email address domain \
+[Emailrep](https://emailrep.io/) Email reputation search \
 [Emkei](https://emkei.cz) Online Fake Emailer \
+[Epieos](https://epieos.com) Retrieve information linked to an email address \
+[Experte](https://www.experte.com/email-verification) Email reputation. \
 [Eyepaste](https://www.eyepaste.com) Disposable Email \
-[Peepmail](https://samy.pl/peepmail) a tool that allows you to discover business email addresses for users, even if their email address may not be publicly available or shared \
 [Gaijin](https://www.gaijin.at/en/tools/e-mail-header-analyzer) Email Header Analysis \
-[MXToolbox](https://mxtoolbox.com/blacklists.aspx) Email Blacklist Check \
-[Thats Them](https://thatsthem.com/reverse-email-lookup) Reverse Lookup \
+[Google Toolbox Email Header Analyzer](https://toolbox.googleapps.com/apps/messageheader/) Email header analyzer. \
+[GuerillaMail](https://www.guerrillamail.com) Anonymous email \
+[Have I Been Pwned](https://haveibeenpwned.com) Breach data lookup. \
+[Have I Been Sold](https://haveibeensold.app) check if your email has been sold. \
+[Hunter](https://hunter.io) Email Investigation \
+[LeakIX](https://leakix.net) This service indexes various areas of the internet looking for data leaks which may contain sensitive information. We can query through the site or directly via the following URL structure: https://leakix.net/search?scope=leak&q=%22test@test.com%22  \
+[LeakPeek](https://leakpeek.com) The benefit of this service is that it displays a partial view of passwords associated with email addresses within a breach. \
 [List of Disposable Email Addresses](https://github.com/disposable-email-domains/disposable-email-domains/blob/master/disposable_email_blocklist.conf) \
 [MailHeader](https://mailheader.org/) Analyze Email headers \
-[Osint.sh Reverse Whois](https://osint.sh/reversewhois/) Allow you to find domain names owned by an email address \
-[Reverse MX Record](https://osint.sh/reversemx/) Reveal all domains that use the same mail server \
-[Email Security Check](https://emailsecuritycheck.service.ncsc.gov.uk/check)  Check the spf and dmarc of an email address domain \
-[Tuta](https://tuta.com) German encrypted email service. \
-[Email Header Analyzer](https://iplocation.io/email-header-analyzer) Trace ip by email header. \
-[Castrick Clues](https://castrickclues.com/) General Email lookup. \
-[Experte](https://www.experte.com/email-verification) Email reputation. \
-[Google Toolbox Email Header Analyzer](https://toolbox.googleapps.com/apps/messageheader/) Email header analyzer. \
-[DNS Checker](https://toolbox.googleapps.com/apps/messageheader/) This has a feature for email header analysis. \
-[Digital Footprint Check](https://www.digitalfootprintcheck.com/free-checker.html) check an email against differnt sites its associated with. \
-[Have I Been Sold](https://haveibeensold.app) check if your email has been sold. \
+[MXToolbox](https://mxtoolbox.com/blacklists.aspx) Email Blacklist Check \
 [OSINT Rocks](https://osint.rocks) has a great email search. \
-[Synapseint](https://synapsint.com) has a good email search.
+[Osint.sh Reverse Whois](https://osint.sh/reversewhois/) Allow you to find domain names owned by an email address \
+[Peepmail](https://samy.pl/peepmail) a tool that allows you to discover business email addresses for users, even if their email address may not be publicly available or shared \
+[Reverse MX Record](https://osint.sh/reversemx/) Reveal all domains that use the same mail server \
+[Synapseint](https://synapsint.com) has a good email search. \
+[Thats Them](https://thatsthem.com/reverse-email-lookup) Reverse Lookup \
+[Tuta](https://tuta.com) German encrypted email service. \
+[Whoxy](https://www.whoxy.com/email/) This will let you search by email for any domains owned by the email address.
