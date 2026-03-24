@@ -29,6 +29,23 @@ You need to setup your API keys in .mosint.yaml. I did not find that file when I
 ./mosint leroyjenkins@gmail.com --config <path to your file>
 ```
 
+***
+
+## Protonmail OSINT
+If you need to verify if someone has a proton mail account: \
+https://api.protonmail.ch/pks/lookup?op=get&search=notmyemail@protonmail.com 
+
+If your browser prompts you to download a file titled "pubkey.asc", this indicates that the address exists. If you receive a message of "No Key Found", then it does not. If the address exists, navigate to the following URL: \
+https://api.protonmail.ch/pks/lookup?op=index&search=notmyemail@protonmail.com \
+It will look like:
+```
+info:1:1
+pub:74ecf3959bac5eba2bd636e204fac101b757d18f:1:2048:1623879788::
+uid:notmyemail@protonmail.com <notmyemail@protonmail.com>:1623879788::
+```
+The last set of digits (1623879788) represents an Epoch Unix timestamp. We can convert that number into a date and time at
+https://www.unixtimestamp.com/index.php. This tells me that the account was created on or before Wednesday, June 16, 2021 at 21:43:08 GMT.
+
   
 ## General Links
 [Emailrep](https://emailrep.io/) Email reputation search \
