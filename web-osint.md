@@ -283,6 +283,24 @@ Usage
 waymore -i domain.com -mode U -l 200
 ```
 
+***
+
+## Arjun
+https://github.com/s0md3v/Arjun \
+Arjun can find query parameters for URL endpoints. \
+Docker Install:
+```
+docker pull secsi/arjun
+```
+Run it
+```
+docker run -it --rm secsi/arjun -u <target-url>
+```
+Save the results
+```
+docker run -v $(pwd):/data -it --rm secsi/arjun -u <target-url> -o /data/results.txt
+```
+
 
 
 ## General Links
