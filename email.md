@@ -14,36 +14,19 @@
 9. Search the email in a public PGP key database. For that you could find a PGP public key, save it in notepad as a .asc file, then open it in Kleopatra https://www.openpgp.org/software/kleopatra/ and it will extract the username and email from it.
 10. Search the email in Whoxy to see if that email registered any domains
 
-## Ghunt
-https://github.com/mxrch/GHunt \
-**Description** GHunt (v2) is an offensive Google framework, designed to evolve efficiently.
-It's currently focused on OSINT, but any use related with Google is possible. \
+***
 
-Help File
-```
-usage: ghunt [-h] {login,email,gaia,drive} ...
 
-positional arguments:
-  {login,email,gaia,drive}
-    login   (--clean)         Authenticate GHunt to Google.
-    email   (--json)          Get information on an email address.
-    gaia    (--json)          Get information on a Gaia ID.
-    drive   (--json)          Get information on a Drive file or folder.
-
-options:
-  -h, --help            show this help message and exit
-  ```
-
-## Holehe
-**Description** Holehe checks if an email is attached to an account on sites like twitter, instagram, imgur and more than 120 others. \
-https://github.com/megadose/holehe \
+## MOSINT
+https://github.com/alpkeskin/mosint \
+Email OSINT This tool gives a good summary via emailrep, hunter, HIBP, etc. \
 Install
 ```
-pip3 install holehe
+go install -v github.com/alpkeskin/mosint/v3/cmd/mosint@latest
 ```
-Usage
+You need to setup your API keys in .mosint.yaml. I did not find that file when I installed it, so their page has an example one located at https://github.com/alpkeskin/mosint/blob/master/example-config.yaml  I just went to the go/bin folder and made a file called .mosint.yaml and pasted their example in and added my keys. When you run the tool you need to point to this file with --config like so:
 ```
-holehe test@gmail.com
+./mosint leroyjenkins@gmail.com --config <path to your file>
 ```
 
   
